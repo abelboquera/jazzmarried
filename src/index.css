@@ -1,18 +1,18 @@
 :root {
-  --ivory: #f7f3ec;
-  --ivory-deep: #ebe3d6;
-  --charcoal: #2c2826;
-  --ink: #141210;
-  --gold: #b89b54;
-  --gold-soft: rgba(184, 155, 84, 0.22);
-  --burgundy: #5c2830;
-  --brown: #3d2a22;
-  --white: #fdfcfa;
-  --sans: 'Source Sans 3', system-ui, -apple-system, sans-serif;
-  --serif: 'Cormorant Garamond', 'Times New Roman', serif;
-  --shadow-soft: 0 18px 50px rgba(20, 18, 16, 0.12);
-  --radius: 14px;
-  --radius-sm: 10px;
+  --ivory: #f0efeb;
+  --ivory-deep: #e2e1dc;
+  --charcoal: #2a2926;
+  --ink: #121211;
+  --gold: #7d6f58;
+  --gold-soft: rgba(125, 111, 88, 0.16);
+  --burgundy: #2a3a44;
+  --brown: #353129;
+  --white: #fafaf8;
+  --sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --serif: 'Fraunces', 'Georgia', serif;
+  --shadow-soft: 0 18px 50px rgba(20, 18, 16, 0.1);
+  --radius: 10px;
+  --radius-sm: 8px;
   --max: 1120px;
   --space: clamp(1.25rem, 2vw, 2rem);
 }
@@ -36,8 +36,8 @@ html {
 body {
   margin: 0;
   font-family: var(--sans);
-  font-size: 1.0625rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.62;
   color: var(--charcoal);
   background: var(--ivory);
   text-rendering: optimizeLegibility;
@@ -65,7 +65,7 @@ a:hover {
 }
 
 :focus-visible {
-  outline: 2px solid var(--gold);
+  outline: 2px solid color-mix(in srgb, var(--burgundy) 65%, var(--charcoal));
   outline-offset: 3px;
 }
 

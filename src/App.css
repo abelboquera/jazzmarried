@@ -56,11 +56,11 @@
 }
 
 .logo__tagline {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-style: italic;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   line-height: 1.35;
   color: color-mix(in srgb, var(--charcoal) 72%, transparent);
 }
@@ -71,8 +71,8 @@
   margin-top: 0.5em;
   flex-shrink: 0;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, var(--gold), #7a5a28);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 35%, transparent);
+  background: radial-gradient(circle at 30% 30%, var(--gold), #4a4338);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 28%, transparent);
 }
 
 .nav__list {
@@ -96,7 +96,7 @@
 .nav a:hover {
   color: var(--burgundy);
   text-decoration: underline;
-  text-decoration-color: var(--gold);
+  text-decoration-color: color-mix(in srgb, var(--burgundy) 45%, transparent);
 }
 
 .site-header__actions {
@@ -191,7 +191,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.85rem 1.35rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-family: var(--sans);
   font-weight: 600;
   font-size: 0.98rem;
@@ -222,8 +222,8 @@
 }
 
 .btn--primary:hover {
-  background: var(--burgundy);
-  border-color: var(--burgundy);
+  background: color-mix(in srgb, var(--burgundy) 92%, var(--ink));
+  border-color: color-mix(in srgb, var(--burgundy) 92%, var(--ink));
   color: var(--ivory);
 }
 
@@ -306,8 +306,8 @@
 
 .hero__eyebrow {
   margin: 0 0 0.75rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--ivory) 72%, transparent);
 }
@@ -318,8 +318,8 @@
   font-family: var(--serif);
   font-weight: 600;
   font-size: clamp(2.35rem, 5vw, 3.65rem);
-  line-height: 1.08;
-  letter-spacing: 0.01em;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
   color: var(--ivory);
 }
 
@@ -334,8 +334,8 @@
 .hero__trust {
   margin: 0 0 1.75rem;
   font-size: 0.95rem;
-  letter-spacing: 0.04em;
-  color: color-mix(in srgb, var(--gold) 95%, var(--ivory));
+  letter-spacing: 0.03em;
+  color: color-mix(in srgb, var(--ivory) 82%, var(--gold));
 }
 
 .hero__sound-row {
@@ -351,7 +351,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-family: var(--sans);
   font-size: 0.88rem;
   font-weight: 600;
@@ -397,8 +397,8 @@
 }
 
 .hero .btn--primary:hover {
-  background: var(--gold-soft);
-  border-color: var(--gold);
+  background: color-mix(in srgb, var(--ivory) 92%, var(--burgundy));
+  border-color: color-mix(in srgb, var(--ivory) 75%, var(--burgundy));
   color: var(--ink);
 }
 
@@ -419,7 +419,7 @@
   font-weight: 600;
   font-size: clamp(2rem, 3.5vw, 2.75rem);
   color: var(--ink);
-  letter-spacing: 0.01em;
+  letter-spacing: -0.02em;
 }
 
 .section__lede {
@@ -436,7 +436,7 @@
   width: 72px;
   height: 2px;
   margin-top: 1rem;
-  background: linear-gradient(90deg, var(--gold), transparent);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--ink) 55%, transparent), transparent);
   border-radius: 2px;
 }
 
@@ -453,7 +453,7 @@
 }
 
 .section--artists {
-  background: radial-gradient(120% 80% at 10% 0%, var(--gold-soft), transparent 55%), var(--ivory);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--ivory-deep) 70%, var(--white)), var(--ivory));
 }
 
 .section--media {
@@ -470,7 +470,11 @@
 }
 
 .section--why .rule {
-  background: linear-gradient(90deg, var(--gold), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--ivory) 55%, transparent),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .section--contact {
@@ -547,7 +551,7 @@
 }
 
 .format-card:hover {
-  border-color: color-mix(in srgb, var(--gold) 55%, var(--charcoal));
+  border-color: color-mix(in srgb, var(--burgundy) 35%, var(--charcoal));
   transform: translateY(-3px);
 }
 
@@ -599,7 +603,7 @@
 .moments__index {
   font-family: var(--serif);
   font-size: 1.5rem;
-  color: var(--gold);
+  color: color-mix(in srgb, var(--burgundy) 75%, var(--charcoal));
   line-height: 1;
 }
 
@@ -783,7 +787,7 @@
   gap: 0.75rem;
   padding: 1rem;
   background:
-    radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--gold) 25%, transparent), transparent 55%),
+    radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--burgundy) 18%, transparent), transparent 55%),
     linear-gradient(145deg, #2a2420, #141210);
   position: relative;
 }
@@ -860,8 +864,8 @@
   margin-top: 0.45rem;
   border-radius: 50%;
   flex-shrink: 0;
-  background: var(--gold);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 25%, transparent);
+  background: color-mix(in srgb, var(--ivory) 18%, var(--burgundy));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ivory) 8%, transparent);
 }
 
 /* ——— Contact ——— */
@@ -971,9 +975,9 @@
 .field input:focus-visible,
 .field select:focus-visible,
 .field textarea:focus-visible {
-  outline: 2px solid var(--gold);
+  outline: 2px solid color-mix(in srgb, var(--burgundy) 55%, var(--charcoal));
   outline-offset: 2px;
-  border-color: color-mix(in srgb, var(--gold) 55%, var(--charcoal));
+  border-color: color-mix(in srgb, var(--burgundy) 40%, var(--charcoal));
 }
 
 .contact-form__actions {
@@ -1002,7 +1006,7 @@
 }
 
 .site-footer a:hover {
-  color: var(--gold);
+  color: color-mix(in srgb, var(--ivory) 95%, var(--gold));
   text-decoration: underline;
 }
 
