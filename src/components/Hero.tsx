@@ -3,7 +3,7 @@ import { en } from '../content/en'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
 const HERO_VIDEO_SRC = '/media/voice-band-live.mp4'
-const HERO_POSTER = '/images/band-sinead-flytones.png'
+const HERO_POSTER = '/images/band-sinead-flytones.jpg'
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)

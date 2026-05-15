@@ -106,9 +106,11 @@ export const en = {
   artists: {
     title: 'Artists',
     galleryCaption:
-      'Moments from collective bookings: real rooms, real musicians, real energy. Replace or extend with your own press photography when ready.',
+      'Moments from collective bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
+    davidPhotoCaption:
+      'David Philips — singer-guitarist, often booked solo or as a duo for ceremonies, cocktails and intimate rooms.',
     paragraphs: [
-      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The live clips in the Media section below feature vocalist Sinead Savage with Jazzmarried line-ups — quartet, trio and related formats.',
+      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The Media section below includes ensemble clips with vocalist Sinead Savage (quartet, trio and related formats) and solo/duo examples with singer-guitarist David Philips.',
       'Depending on the format and date, the collective may include vocalists such as Sinead Savage and musicians connected to projects like The Shu Shu’s. More broadly, Jazzmarried draws on a trusted network of Barcelona-based, internationally connected musicians from the professional jazz, soul and rhythm & blues world — people with real experience on stages, in clubs, at festivals and in private and international settings — to build lineups that fit your event, not a fixed catalogue or implied celebrity roster.',
       'This network allows us to create flexible lineups for each event while keeping a clear musical identity: warm sound, real musicianship, elegant presentation and soulful energy.',
     ],
@@ -116,12 +118,14 @@ export const en = {
   media: {
     title: 'Media',
     intro:
-      'Live clips featuring vocalist Sinead Savage with Jazzmarried line-ups — quartet, trio and related formats. The same performances illustrate the energy we bring to voice-led and ensemble bookings.',
+      'Live clips with Jazzmarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), plus solo and duo performances with singer-guitarist David Philips for intimate settings.',
     items: [
       { title: 'Voice & band — live example', youtubeId: '4BrkJO9TEQE' },
       { title: 'Organ trio / soul-jazz — live example', youtubeId: '4mAQpno3tMo' },
       { title: 'Piano solo / cocktail atmosphere — live example', youtubeId: 'W6_83mZIhK8' },
       { title: 'DJ / celebration atmosphere — live example', youtubeId: '3G8Tsb0clSk' },
+      { title: 'David Philips — solo (voice & guitar)', youtubeId: 'ev519Wnk22c' },
+      { title: 'David Philips — duo', youtubeId: 'J22zUecZVlU' },
     ],
   },
   why: {

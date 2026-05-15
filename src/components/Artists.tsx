@@ -16,35 +16,48 @@ export function Artists() {
         <div className="artist-gallery" aria-label="Press and live photos">
           <figure className="artist-gallery__item artist-gallery__item--wide">
             <img
-              src="/images/band-sinead-flytones.png"
-              width={1200}
-              height={800}
-              alt="Black and white group portrait of musicians at an outdoor celebration in Barcelona."
+              src="/images/band-sinead-flytones.jpg"
+              width={3208}
+              height={2104}
+              alt="Sinead Savage with The Flytones — group photo outdoors in Barcelona."
               loading="lazy"
               decoding="async"
             />
           </figure>
           <figure className="artist-gallery__item">
             <img
-              src="/images/sinead-live.png"
-              width={800}
-              height={1200}
-              alt="Vocalist performing outdoors with handheld microphone — intimate live atmosphere."
+              src="/images/sinead-live.jpg"
+              width={746}
+              height={960}
+              alt="Sinead Savage performing live — intimate stage atmosphere."
               loading="lazy"
               decoding="async"
             />
           </figure>
           <figure className="artist-gallery__item">
             <img
-              src="/images/sinead-portrait.png"
-              width={1200}
-              height={800}
-              alt="Portrait of a vocalist smiling, wearing a wide-brimmed hat, black and white."
+              src="/images/sinead-portrait.jpg"
+              width={3456}
+              height={2108}
+              alt="Sinead Savage — vocalist with Jazzmarried collective line-ups."
               loading="lazy"
               decoding="async"
             />
           </figure>
         </div>
+
+        <figure className="artist-gallery__david">
+          <img
+            src="/images/david-philips-solo.png"
+            width={1024}
+            height={536}
+            alt="David Philips — singer-guitarist with acoustic guitar, portrait with directional light and dark background."
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+        <p className="artist-gallery__david-caption">{en.artists.davidPhotoCaption}</p>
+
         <p className="artist-gallery__caption">{en.artists.galleryCaption}</p>
 
         <div className="prose prose--narrow">
