@@ -444,7 +444,20 @@
 }
 
 .section--about {
-  background: var(--white);
+  position: relative;
+  isolation: isolate;
+  background-color: var(--ivory);
+  background-image:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--ivory) 94%, transparent) 0%,
+      color-mix(in srgb, var(--white) 90%, transparent) 42%,
+      color-mix(in srgb, var(--ivory) 93%, transparent) 100%
+    ),
+    url('/images/band-outdoor-deck.png');
+  background-size: cover, cover;
+  background-position: center center, center 38%;
+  background-repeat: no-repeat;
 }
 
 .section--formats {
