@@ -10,6 +10,7 @@ const momentOptions = [
   { value: 'cocktail', label: 'Cocktail' },
   { value: 'dinner', label: 'Dinner' },
   { value: 'celebration', label: 'Celebration' },
+  { value: 'afterparty', label: 'Afterparty' },
   { value: 'other', label: 'Other' },
 ]
 
@@ -45,13 +46,7 @@ export function Contact() {
             <h2 className="section__title">{en.contact.title}</h2>
             <p className="contact-intro__lead">{en.contact.lead}</p>
             <p className="contact-intro__closing">{en.contact.closing}</p>
-            <p className="contact-intro__seo">
-              If you are looking for a live jazz wedding band Barcelona couples trust for taste,{' '}
-              <strong>wedding music Barcelona</strong> with a soul-jazz thread,{' '}
-              <strong>jazz for weddings</strong> that stays elegant, a <strong>soul band for events</strong>, or{' '}
-              <strong>piano for weddings Barcelona</strong> — tell us what you are planning and we will respond with
-              format ideas.
-            </p>
+            <p className="contact-intro__seo">{en.contact.seoParagraph}</p>
             <p className="contact-intro__mailto">
               {en.contact.mailtoNote}{' '}
               <a href={`mailto:${MAIL}`}>{en.contact.mailto}</a>

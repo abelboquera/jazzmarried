@@ -11,7 +11,7 @@ export const en = {
     about: 'About',
     formats: 'Formats',
     moments: 'Moments',
-    artists: 'Collaborators',
+    artists: 'Collective',
     media: 'Media',
     why: 'Why Jazzmarried',
     contact: 'Contact',
@@ -20,21 +20,19 @@ export const en = {
     headline: 'Jazz, soul & vintage grooves for weddings and private events',
     subtitle:
       'Jazzmarried is a play on “Just Married”: elegant live music for ceremonies, cocktails, dinners and private celebrations in Barcelona and beyond.',
-    trustLine:
-      'Directed by Abel Boquera · Barcelona jazz & soul musicians · Custom live formats',
+    trustLine: 'Barcelona-based collective · 15+ years of live music experience · Custom live formats',
     ctaPrimary: 'Request availability',
     ctaSecondary: 'Explore formats',
   },
   about: {
     title: 'About',
-    p1: 'Jazzmarried is a live music project for weddings and private events inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds.',
-    p2: 'Directed by Abel Boquera, pianist and Hammond organist, the project brings together professional musicians from Barcelona’s jazz and soul scene to create tailored live formats for each event.',
-    p3: 'From intimate piano solo performances to voice-led bands, organ trio grooves or full soul-jazz lineups, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
-    p4: 'Abel has performed and collaborated with artists such as Gisele Jackson, Muriel Grossmann, Ray Gelato, Benjamin Herman and Adrian Cunningham.',
+    p1: 'Jazzmarried is a live music collective for weddings and private events inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds. Based in Barcelona, we bring together professional musicians, singers, DJs and live sound specialists with more than 15 years of experience in live music, private events, clubs, festivals and weddings.',
+    p2: 'From intimate piano solo performances to voice-led bands, organ trio grooves, full soul-jazz lineups or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
+    p3: 'Our focus is simple: real musicians, tasteful repertoire, professional sound and a live experience that feels elegant, warm and authentic.',
   },
   formats: {
     title: 'Formats',
-    intro: 'Choose the scale that fits your space, schedule and energy.',
+    intro: 'Choose the scale, energy and flow that fit your space, schedule and crowd.',
     items: [
       {
         title: 'Piano solo',
@@ -56,11 +54,15 @@ export const en = {
         title: 'Full soul-jazz band',
         body: 'A larger live band for events that need rhythm, character and a stronger stage presence.',
       },
+      {
+        title: 'DJ / live + DJ',
+        body: 'For the final part of the celebration, with the option to combine live music and DJ.',
+      },
     ],
   },
   moments: {
     title: 'Moments',
-    intro: 'Music shaped for each chapter of the day.',
+    intro: 'Music shaped for each chapter of the day — and the night.',
     items: [
       {
         title: 'Ceremony',
@@ -78,34 +80,47 @@ export const en = {
         title: 'Celebration',
         body: 'Soul, rhythm & blues, funk and energetic vintage grooves when the room opens up.',
       },
+      {
+        title: 'Afterparty',
+        body: 'DJ or live + DJ to keep the dancefloor moving without losing musical taste.',
+      },
     ],
   },
   artists: {
-    title: 'Featured collaborators',
+    title: 'The collective',
     intro:
-      'Jazzmarried draws on a curated circle of musicians from Barcelona’s jazz and soul world. Formats and lineups are built around your event — not a fixed catalogue act.',
-    sinead: {
-      name: 'Sinead Savage',
-      body: 'Irish vocalist specialised in events, with international experience and winter seasons performing in Switzerland.',
-    },
-    shushu: {
-      name: 'The Shu Shu’s',
-      body: 'Barcelona-based soul-jazz / organ trio often connected to the instrumental backbone of Jazzmarried.',
-    },
-    scene: {
-      name: 'Barcelona jazz & soul musicians',
-      body: 'Trusted collaborators depending on format, date and what the room needs — always professional, always musical.',
-    },
+      'Jazzmarried is a curated network of professionals from Barcelona’s jazz, soul and live music scene — not a catalogue act, and not a faceless agency. Lineups are built around your date, format and the atmosphere you want.',
     galleryCaption:
-      'Press photos: Sinead Savage with ensemble (The Flytones), and live performance moments — the Jazzmarried circle is built from musicians active on the Barcelona scene.',
+      'Black-and-white moments from collective bookings: real rooms, real musicians, real energy.',
+    blocks: [
+      {
+        title: 'Jazz, soul & event musicians',
+        body: 'Barcelona-based players with national and international experience — from intimate duos to full bands, chosen for musicality and reliability.',
+      },
+      {
+        title: 'Vocalists for private events',
+        body: 'Singers used to reading the room at weddings and celebrations, including artists with international seasons and long-form private-event experience.',
+      },
+      {
+        title: 'Scene & project connections',
+        body: 'The collective regularly draws on musicians connected to projects on the local circuit — for example the soul-jazz / organ trio world around acts such as The Shu Shu’s.',
+      },
+      {
+        title: 'DJs & live sound',
+        body: 'Trusted DJs for the late set, and live sound support when the room or format needs a proper audio plan — clean, musical, discreet.',
+      },
+    ],
+    networkNote:
+      'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
   },
   media: {
     title: 'Media',
-    intro: 'Live clip with voice and band, plus photos from recent bookings. Add dedicated organ-trio or solo piano clips when you have them.',
+    intro: 'Short clips sell the feel better than words. Drop in YouTube embeds or hosted files when you are ready.',
     items: [
       { title: 'Voice & band — live example', hint: 'Add video URL here' },
-      { title: 'Organ trio / soul-jazz — still from live line-up', hint: 'Add video URL here' },
-      { title: 'Piano solo / cocktail atmosphere — live moment', hint: 'Add video URL here' },
+      { title: 'Organ trio / soul-jazz — live example', hint: 'Add video URL here' },
+      { title: 'Piano solo / cocktail atmosphere — live example', hint: 'Add video URL here' },
+      { title: 'DJ / celebration atmosphere — live example', hint: 'Add video URL here' },
     ],
   },
   why: {
@@ -113,8 +128,10 @@ export const en = {
     items: [
       'Real musicians, not generic backing tracks',
       'Tailored formats for each event',
+      'More than 15 years of live music and event experience',
       'Elegant sound and professional stage presence',
       'A clear jazz / soul / vintage musical identity',
+      'Trusted network of musicians, DJs and sound professionals',
       'Barcelona based — available for destination weddings and private events',
     ],
   },
@@ -123,6 +140,8 @@ export const en = {
     lead: 'Tell us about your event and we’ll suggest the right format.',
     closing:
       'Tell us about your event. We’ll help you find the format, sound and atmosphere that fits it best.',
+    seoParagraph:
+      'Whether you are searching for a live jazz wedding band Barcelona audiences connect with, wedding music Barcelona with soul and restraint, jazz for weddings that stays elegant, a soul band for events, piano for weddings Barcelona, live music for private events Barcelona, or DJ and live music for weddings Barcelona — describe your plans and we will reply with honest format ideas.',
     fields: {
       name: 'Name',
       email: 'Email',
@@ -142,7 +161,7 @@ export const en = {
       location: 'Venue or city',
       type: 'Wedding, private dinner, corporate…',
       moment: 'Select…',
-      format: 'Solo, duo, trio, band…',
+      format: 'Solo, duo, trio, band, DJ, live + DJ…',
       message: 'Guest count, timings, musical wishes…',
     },
     submit: 'Send inquiry',

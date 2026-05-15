@@ -6,7 +6,7 @@ export function Hero() {
       <div
         className="hero__bg"
         role="img"
-        aria-label="Black and white photograph of vocalist Sinead Savage with band members outdoors in Barcelona."
+        aria-label="Warm, elegant background texture for Jazzmarried — replace with your photography when ready."
       >
         <div className="hero__bg-image" />
         <div className="hero__scrim" />

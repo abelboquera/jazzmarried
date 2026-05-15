@@ -2,12 +2,6 @@ import { en } from '../content/en'
 import { RevealSection } from './RevealSection'
 
 export function Artists() {
-  const blocks = [
-    { title: en.artists.sinead.name, body: en.artists.sinead.body },
-    { title: en.artists.shushu.name, body: en.artists.shushu.body },
-    { title: en.artists.scene.name, body: en.artists.scene.body },
-  ]
-
   return (
     <RevealSection id="artists" className="section section--artists">
       <div className="shell section__inner">
@@ -22,7 +16,7 @@ export function Artists() {
               src="/images/band-sinead-flytones.png"
               width={1200}
               height={800}
-              alt="Sinead Savage with band members The Flytones, black and white group portrait in Barcelona."
+              alt="Black and white group portrait of musicians at an outdoor celebration in Barcelona."
               loading="lazy"
               decoding="async"
             />
@@ -32,7 +26,7 @@ export function Artists() {
               src="/images/sinead-live.png"
               width={800}
               height={1200}
-              alt="Sinead Savage singing into a microphone at an outdoor performance."
+              alt="Vocalist performing outdoors with handheld microphone — intimate live atmosphere."
               loading="lazy"
               decoding="async"
             />
@@ -42,7 +36,7 @@ export function Artists() {
               src="/images/sinead-portrait.png"
               width={1200}
               height={800}
-              alt="Sinead Savage smiling, wearing a wide-brimmed hat, black and white portrait."
+              alt="Portrait of a vocalist smiling, wearing a wide-brimmed hat, black and white."
               loading="lazy"
               decoding="async"
             />
@@ -51,13 +45,14 @@ export function Artists() {
         <p className="artist-gallery__caption">{en.artists.galleryCaption}</p>
 
         <ul className="artist-blocks">
-          {blocks.map((b) => (
+          {en.artists.blocks.map((b) => (
             <li key={b.title} className="artist-block">
               <h3 className="artist-block__title">{b.title}</h3>
               <p>{b.body}</p>
             </li>
           ))}
         </ul>
+        <p className="artist-network-note">{en.artists.networkNote}</p>
       </div>
     </RevealSection>
   )

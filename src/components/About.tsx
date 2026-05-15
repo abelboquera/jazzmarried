@@ -12,8 +12,7 @@ export function About() {
         <div className="prose prose--columns">
           <p>{en.about.p1}</p>
           <p>{en.about.p2}</p>
-          <p>{en.about.p3}</p>
-          <p className="prose__highlight">{en.about.p4}</p>
+          <p className="prose__highlight">{en.about.p3}</p>
         </div>
       </div>
     </RevealSection>
