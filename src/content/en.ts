@@ -121,6 +121,14 @@ export const en = {
     ],
     networkNote:
       'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage, solo artists such as David Philips, and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
+    sineadSavage: {
+      title: 'Sinead Savage — vocalist for weddings & events',
+      body: 'Irish vocalist focused on private celebrations, with international experience and long winter seasons performing in Switzerland. A natural fit for voice-led Jazzmarried formats — from intimate duo and trio line-ups to full soul-jazz bands.',
+      image: '/images/sinead-live.png',
+      imageAlt: 'Sinead Savage singing at an outdoor performance with handheld microphone.',
+      videos: [] as readonly { label: string; youtubeId: string; title: string }[],
+      videoNote: 'Live performance clips — send your inquiry and we will share reference links.',
+    },
     davidPhilips: {
       title: 'David Philips — solo artist & singer',
       body: 'Available solo or as a duo through Jazzmarried: acoustic-led repertoire, professional stagecraft, and a sound that fits ceremonies, cocktails and more intimate celebrations.',

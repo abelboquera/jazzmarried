@@ -1,7 +1,11 @@
 import { en } from '../content/en'
+import { ArtistSpotlight } from './ArtistSpotlight'
 import { RevealSection } from './RevealSection'
 
 export function Artists() {
+  const s = en.artists.sineadSavage
+  const d = en.artists.davidPhilips
+
   return (
     <RevealSection id="artists" className="section section--artists">
       <div className="shell section__inner">
@@ -44,43 +48,25 @@ export function Artists() {
         </div>
         <p className="artist-gallery__caption">{en.artists.galleryCaption}</p>
 
-        <article className="artist-spotlight" aria-labelledby="david-philips-heading">
-          <div className="artist-spotlight__row">
-            <div className="artist-spotlight__media">
-              <img
-                src={en.artists.davidPhilips.image}
-                width={800}
-                height={450}
-                alt={en.artists.davidPhilips.imageAlt}
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <div className="artist-spotlight__text">
-              <h3 id="david-philips-heading" className="artist-spotlight__title">
-                {en.artists.davidPhilips.title}
-              </h3>
-              <p className="artist-spotlight__body">{en.artists.davidPhilips.body}</p>
-            </div>
-          </div>
-          <div className="artist-spotlight__embeds">
-            {en.artists.davidPhilips.videos.map((v) => (
-              <div key={v.youtubeId} className="artist-spotlight__embed">
-                <p className="artist-spotlight__video-label">{v.label}</p>
-                <div className="media-card__embed">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${v.youtubeId}?rel=0`}
-                    title={v.title}
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </article>
+        <div className="artist-spotlights">
+          <ArtistSpotlight
+            headingId="sinead-savage-heading"
+            title={s.title}
+            body={s.body}
+            image={s.image}
+            imageAlt={s.imageAlt}
+            videos={s.videos}
+            videoNote={s.videoNote}
+          />
+          <ArtistSpotlight
+            headingId="david-philips-heading"
+            title={d.title}
+            body={d.body}
+            image={d.image}
+            imageAlt={d.imageAlt}
+            videos={d.videos}
+          />
+        </div>
 
         <ul className="artist-blocks">
           {en.artists.blocks.map((b) => (

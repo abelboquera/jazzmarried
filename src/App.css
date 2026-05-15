@@ -647,11 +647,17 @@
   max-width: 70ch;
 }
 
+.artist-spotlights {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .artist-spotlight {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  margin-bottom: 1rem;
   padding: 1.25rem;
   border-radius: var(--radius);
   background: var(--white);
@@ -705,6 +711,20 @@
 }
 
 .artist-spotlight__embed .media-card__embed {
+  border-radius: var(--radius-sm);
+}
+
+.artist-spotlight__video-note {
+  margin: 0;
+  max-width: 52ch;
+  margin-inline: auto;
+  padding: 1rem 1.15rem;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--charcoal) 78%, transparent);
+  background: color-mix(in srgb, var(--ivory) 55%, var(--white));
+  border: 1px dashed color-mix(in srgb, var(--charcoal) 18%, transparent);
   border-radius: var(--radius-sm);
 }
 
