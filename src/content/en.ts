@@ -103,19 +103,20 @@ export const en = {
     galleryCaption:
       'Moments from collective bookings: real rooms, real musicians, real energy. Replace or extend with your own press photography when ready.',
     paragraphs: [
-      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene.',
+      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The live clips in the Media section below feature vocalist Sinead Savage with Jazzmarried line-ups — quartet, trio and related formats.',
       'Depending on the format and date, the collective may include vocalists such as Sinead Savage and musicians connected to projects like The Shu Shu’s. More broadly, Jazzmarried draws on a trusted network of Barcelona-based, internationally connected musicians from the professional jazz, soul and rhythm & blues world — people with real experience on stages, in clubs, at festivals and in private and international settings — to build lineups that fit your event, not a fixed catalogue or implied celebrity roster.',
       'This network allows us to create flexible lineups for each event while keeping a clear musical identity: warm sound, real musicianship, elegant presentation and soulful energy.',
     ],
   },
   media: {
     title: 'Media',
-    intro: 'Short clips sell the feel better than words. Swap in hosted video or YouTube embeds when you are ready.',
+    intro:
+      'Live clips featuring vocalist Sinead Savage with Jazzmarried line-ups — quartet, trio and related formats. The same performances illustrate the energy we bring to voice-led and ensemble bookings.',
     items: [
-      { title: 'Voice & band — live example', hint: 'Add video URL here' },
-      { title: 'Organ trio / soul-jazz — live example', hint: 'Add video URL here' },
-      { title: 'Piano solo / cocktail atmosphere — live example', hint: 'Add video URL here' },
-      { title: 'DJ / celebration atmosphere — live example', hint: 'Add video URL here' },
+      { title: 'Voice & band — live example', youtubeId: '4BrkJO9TEQE' },
+      { title: 'Organ trio / soul-jazz — live example', youtubeId: '4mAQpno3tMo' },
+      { title: 'Piano solo / cocktail atmosphere — live example', youtubeId: 'W6_83mZIhK8' },
+      { title: 'DJ / celebration atmosphere — live example', youtubeId: '3G8Tsb0clSk' },
     ],
   },
   why: {
