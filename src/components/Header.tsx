@@ -7,7 +7,6 @@ const nav = [
   { href: '#moments', label: en.nav.moments },
   { href: '#artists', label: en.nav.artists },
   { href: '#media', label: en.nav.media },
-  { href: '#why', label: en.nav.why },
   { href: '#contact', label: en.nav.contact },
 ]
 

@@ -54,6 +54,7 @@ export function Contact() {
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit} noValidate>
+            <p className="contact-form__tech-note">{en.contact.formNote}</p>
             <div className="form-row form-row--2">
               <label className="field">
                 <span className="field__label">{en.contact.fields.name}</span>

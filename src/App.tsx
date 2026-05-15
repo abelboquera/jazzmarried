@@ -24,8 +24,8 @@ function App() {
         <Formats />
         <Moments />
         <Artists />
-        <Media />
         <WhyJazzmarried />
+        <Media />
         <Contact />
       </main>
       <Footer />

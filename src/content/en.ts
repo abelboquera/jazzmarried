@@ -11,29 +11,28 @@ export const en = {
     about: 'About',
     formats: 'Formats',
     moments: 'Moments',
-    artists: 'Collective',
+    artists: 'Artists',
     media: 'Media',
-    why: 'Why Jazzmarried',
     contact: 'Contact',
   },
   hero: {
     headline: 'Jazz, soul & vintage grooves for weddings and private events',
     subtitle:
       'Jazzmarried is a play on “Just Married”: elegant live music for ceremonies, cocktails, dinners and private celebrations in Barcelona and beyond.',
-    trustLine: 'Barcelona-based collective · 15+ years of live music experience · Custom live formats',
+    trustLine: 'Barcelona based · Internationally connected · 15+ years of live music experience',
+    eyebrow: 'Barcelona · weddings, private events & destination celebrations',
     ctaPrimary: 'Request availability',
     ctaSecondary: 'Explore formats',
-    soundOn: 'Sound on',
-    soundMute: 'Mute',
-    soundHint: 'Autoplay starts muted — tap to listen.',
-    soundOnAria: 'Turn on sound for the hero video',
-    soundMuteAria: 'Mute the hero video',
   },
   about: {
     title: 'About',
-    p1: 'Jazzmarried is a live music collective for weddings and private events inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds. Based in Barcelona, we bring together professional musicians, singers, DJs and live sound specialists with more than 15 years of experience in live music, private events, clubs, festivals and weddings.',
-    p2: 'From intimate piano solo or singer-guitarist solo sets to voice-led bands, organ trio grooves, full soul-jazz lineups or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
-    p3: 'Our focus is simple: real musicians, tasteful repertoire, professional sound and a live experience that feels elegant, warm and authentic.',
+    paragraphs: [
+      'Jazzmarried is a Barcelona-based live music collective for weddings and private events, inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds.',
+      'Run by working musicians and event professionals, the collective brings together singers, instrumentalists, DJs and live sound specialists with more than 15 years of experience in weddings, private events, clubs, festivals and international stages.',
+      'Jazzmarried is rooted in the local, national and international jazz, soul and rhythm & blues scene. The collective works with internationally connected musicians — professionals used to clubs, festivals, private events, international seasons and high-level work on professional stages — and assembles trusted, high-quality lineups tailored to each event, without borrowing other artists’ names as selling points.',
+      'We also have strong experience performing abroad, especially in Switzerland, where part of our team has worked every winter season for more than a decade. With fluent English communication and a flexible approach to formats, Jazzmarried is a natural fit for international couples, destination weddings and private events in Barcelona and beyond.',
+      'From intimate piano solo performances to voice-led bands, organ trio grooves, full soul-jazz lineups, DJ sets or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
+    ],
   },
   formats: {
     title: 'Formats',
@@ -44,16 +43,16 @@ export const en = {
         body: 'Perfect for ceremonies, intimate cocktails and elegant dinners.',
       },
       {
-        title: 'Solo artist & singer — David Philips',
-        body: 'Acoustic guitar and vocals in a focused, professional solo set — ideal for ceremonies, intimate cocktails and smaller rooms when one musician carries the room with clarity and warmth.',
-      },
-      {
         title: 'Duo',
         body: 'Voice & piano, sax & piano, guitar & voice, or other intimate combinations.',
       },
       {
-        title: 'Jazz trio / organ trio',
-        body: 'Warm jazz, bossa nova, blues and soul-jazz grooves with more presence.',
+        title: 'Jazz trio',
+        body: 'Warm jazz, bossa nova, blues and swing with more presence than a duo — ideal for cocktails and dinners that need a fuller acoustic sound.',
+      },
+      {
+        title: 'Organ trio',
+        body: 'Soul-jazz and groove-led energy with organ, guitar or horns depending on the lineup — a strong option when you want character and warmth without a full big band.',
       },
       {
         title: 'Voice + band',
@@ -67,6 +66,10 @@ export const en = {
         title: 'DJ / live + DJ',
         body: 'For the final part of the celebration, with the option to combine live music and DJ.',
       },
+      {
+        title: 'Sound support',
+        body: 'Professional live sound support for selected formats and event needs — clear, musical and discreet.',
+      },
     ],
   },
   moments: {
@@ -75,79 +78,44 @@ export const en = {
     items: [
       {
         title: 'Ceremony',
-        body: 'Elegant songs, ballads and personal requests with clarity and warmth.',
+        body: 'Elegant songs, ballads and personal requests for meaningful moments.',
       },
       {
         title: 'Cocktail',
-        body: 'Jazz, bossa nova, swing and soul — conversational and inviting.',
+        body: 'Jazz, bossa nova, swing and soul to create a warm, sophisticated atmosphere.',
       },
       {
         title: 'Dinner',
-        body: 'Refined, warm and non-invasive live music that supports the table.',
+        body: 'Refined and non-invasive live music that supports conversation and ambience.',
       },
       {
         title: 'Celebration',
-        body: 'Soul, rhythm & blues, funk and energetic vintage grooves when the room opens up.',
+        body: 'Soul, rhythm & blues, funk and energetic vintage grooves for a more festive mood.',
       },
       {
         title: 'Afterparty',
-        body: 'DJ or live + DJ to keep the dancefloor moving without losing musical taste.',
+        body: 'DJ or live + DJ options to keep the evening flowing naturally.',
       },
     ],
   },
   artists: {
-    title: 'The collective',
-    intro:
-      'Jazzmarried is a curated network of professionals from Barcelona’s jazz, soul and live music scene — not a catalogue act, and not a faceless agency. Lineups are built around your date, format and the atmosphere you want.',
+    title: 'Artists',
     galleryCaption:
-      'Black-and-white moments from collective bookings: real rooms, real musicians, real energy.',
-    blocks: [
-      {
-        title: 'Jazz, soul & event musicians',
-        body: 'Barcelona-based players with national and international experience — from intimate duos to full bands, chosen for musicality and reliability.',
-      },
-      {
-        title: 'Vocalists for private events',
-        body: 'Singers used to reading the room at weddings and celebrations, including artists with international seasons and long-form private-event experience.',
-      },
-      {
-        title: 'Scene & project connections',
-        body: 'The collective regularly draws on musicians connected to projects on the local circuit — for example the soul-jazz / organ trio world around acts such as The Shu Shu’s.',
-      },
-      {
-        title: 'DJs & live sound',
-        body: 'Trusted DJs for the late set, and live sound support when the room or format needs a proper audio plan — clean, musical, discreet.',
-      },
+      'Moments from collective bookings: real rooms, real musicians, real energy. Replace or extend with your own press photography when ready.',
+    paragraphs: [
+      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene.',
+      'Depending on the format and date, the collective may include vocalists such as Sinead Savage and musicians connected to projects like The Shu Shu’s. More broadly, Jazzmarried draws on a trusted network of Barcelona-based, internationally connected musicians from the professional jazz, soul and rhythm & blues world — people with real experience on stages, in clubs, at festivals and in private and international settings — to build lineups that fit your event, not a fixed catalogue or implied celebrity roster.',
+      'This network allows us to create flexible lineups for each event while keeping a clear musical identity: warm sound, real musicianship, elegant presentation and soulful energy.',
     ],
-    networkNote:
-      'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage, solo artists such as David Philips, and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
-    sineadSavage: {
-      title: 'Sinead Savage — vocalist for weddings & events',
-      body: 'Irish vocalist focused on private celebrations, with international experience and long winter seasons performing in Switzerland. A natural fit for voice-led Jazzmarried formats — from intimate duo and trio line-ups to full soul-jazz bands.',
-      image: '/images/sinead-live.png',
-      imageAlt: 'Sinead Savage singing at an outdoor performance with handheld microphone.',
-      videos: [] as readonly { label: string; youtubeId: string; title: string }[],
-      videoNote: 'Live performance clips — send your inquiry and we will share reference links.',
-    },
-    davidPhilips: {
-      title: 'David Philips — solo artist & singer',
-      body: 'Available solo or as a duo through Jazzmarried: acoustic-led repertoire, professional stagecraft, and a sound that fits ceremonies, cocktails and more intimate celebrations.',
-      image: '/images/david-philips-solo.png',
-      imageAlt: 'David Philips with acoustic guitar — solo singer-guitarist.',
-      videos: [
-        { label: 'Solo', youtubeId: 'ev519Wnk22c', title: 'David Philips — solo (live)' },
-        { label: 'Duo', youtubeId: 'J22zUecZVlU', title: 'David Philips — duo (live)' },
-      ],
-    },
   },
   media: {
     title: 'Media',
-    intro: 'Short clips from recent line-ups — quartet, trio and jazz-focused formats.',
+    intro: 'Short clips sell the feel better than words. Swap in hosted video or YouTube embeds when you are ready.',
     items: [
-      { title: 'Quartet — live example', youtubeId: '4BrkJO9TEQE' },
-      { title: 'Trio — live example', youtubeId: '4mAQpno3tMo' },
-      { title: 'Jazz quartet — live example', youtubeId: 'W6_83mZIhK8' },
-      { title: 'Jazz trio — live example', youtubeId: '3G8Tsb0clSk' },
+      { title: 'Voice & band — live example', hint: 'Add video URL here' },
+      { title: 'Organ trio / soul-jazz — live example', hint: 'Add video URL here' },
+      { title: 'Piano solo / cocktail atmosphere — live example', hint: 'Add video URL here' },
+      { title: 'DJ / celebration atmosphere — live example', hint: 'Add video URL here' },
     ],
   },
   why: {
@@ -156,19 +124,24 @@ export const en = {
       'Real musicians, not generic backing tracks',
       'Tailored formats for each event',
       'More than 15 years of live music and event experience',
+      'Barcelona based, internationally connected',
+      'Experience in Switzerland and destination events',
+      'Fluent English communication for international couples',
       'Elegant sound and professional stage presence',
-      'A clear jazz / soul / vintage musical identity',
+      'Jazz, soul and vintage identity',
       'Trusted network of musicians, DJs and sound professionals',
-      'Barcelona based — available for destination weddings and private events',
+      'Live music, DJ and sound support available',
     ],
   },
   contact: {
     title: 'Inquiry',
     lead: 'Tell us about your event and we’ll suggest the right format.',
+    formNote:
+      'Submitting opens your email app with a pre-filled message. We can connect Netlify Forms, Formspree or another handler when you wire production hosting.',
     closing:
       'Tell us about your event. We’ll help you find the format, sound and atmosphere that fits it best.',
     seoParagraph:
-      'Whether you are searching for a live jazz wedding band Barcelona audiences connect with, wedding music Barcelona with soul and restraint, jazz for weddings that stays elegant, a soul band for events, piano for weddings Barcelona, live music for private events Barcelona, or DJ and live music for weddings Barcelona — describe your plans and we will reply with honest format ideas.',
+      'Whether you are planning a live jazz wedding band Barcelona experience, wedding music Barcelona with soul and restraint, jazz for weddings, a soul band for events, piano for weddings Barcelona, live music for private events Barcelona, DJ and live music for weddings Barcelona, or destination wedding music Barcelona — describe your plans and we will reply with clear, practical format ideas.',
     fields: {
       name: 'Name',
       email: 'Email',
@@ -188,7 +161,7 @@ export const en = {
       location: 'Venue or city',
       type: 'Wedding, private dinner, corporate…',
       moment: 'Select…',
-      format: 'Solo, duo, trio, band, DJ, live + DJ…',
+      format: 'Piano, duo, trio, band, DJ, live + DJ, sound…',
       message: 'Guest count, timings, musical wishes…',
     },
     submit: 'Send inquiry',

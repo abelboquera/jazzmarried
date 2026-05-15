@@ -1,17 +1,16 @@
 import { en } from '../content/en'
-import { ArtistSpotlight } from './ArtistSpotlight'
 import { RevealSection } from './RevealSection'
 
 export function Artists() {
-  const s = en.artists.sineadSavage
-  const d = en.artists.davidPhilips
+  const paras = en.artists.paragraphs
+  const last = paras.length - 1
 
   return (
     <RevealSection id="artists" className="section section--artists">
       <div className="shell section__inner">
         <div className="section__header">
           <h2 className="section__title">{en.artists.title}</h2>
-          <p className="section__lede section__lede--narrow">{en.artists.intro}</p>
+          <div className="rule" aria-hidden="true" />
         </div>
 
         <div className="artist-gallery" aria-label="Press and live photos">
@@ -48,35 +47,13 @@ export function Artists() {
         </div>
         <p className="artist-gallery__caption">{en.artists.galleryCaption}</p>
 
-        <div className="artist-spotlights">
-          <ArtistSpotlight
-            headingId="sinead-savage-heading"
-            title={s.title}
-            body={s.body}
-            image={s.image}
-            imageAlt={s.imageAlt}
-            videos={s.videos}
-            videoNote={s.videoNote}
-          />
-          <ArtistSpotlight
-            headingId="david-philips-heading"
-            title={d.title}
-            body={d.body}
-            image={d.image}
-            imageAlt={d.imageAlt}
-            videos={d.videos}
-          />
-        </div>
-
-        <ul className="artist-blocks">
-          {en.artists.blocks.map((b) => (
-            <li key={b.title} className="artist-block">
-              <h3 className="artist-block__title">{b.title}</h3>
-              <p>{b.body}</p>
-            </li>
+        <div className="prose prose--narrow">
+          {paras.map((text, i) => (
+            <p key={i} className={i === last ? 'prose__highlight' : undefined}>
+              {text}
+            </p>
           ))}
-        </ul>
-        <p className="artist-network-note">{en.artists.networkNote}</p>
+        </div>
       </div>
     </RevealSection>
   )

@@ -2,6 +2,9 @@ import { en } from '../content/en'
 import { RevealSection } from './RevealSection'
 
 export function About() {
+  const paras = en.about.paragraphs
+  const last = paras.length - 1
+
   return (
     <RevealSection id="about" className="section section--about">
       <div className="shell section__inner">
@@ -10,9 +13,11 @@ export function About() {
           <div className="rule" aria-hidden="true" />
         </div>
         <div className="prose prose--columns">
-          <p>{en.about.p1}</p>
-          <p>{en.about.p2}</p>
-          <p className="prose__highlight">{en.about.p3}</p>
+          {paras.map((text, i) => (
+            <p key={i} className={i === last ? 'prose__highlight' : undefined}>
+              {text}
+            </p>
+          ))}
         </div>
       </div>
     </RevealSection>
