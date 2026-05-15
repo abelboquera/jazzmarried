@@ -96,14 +96,16 @@ export const en = {
       name: 'Barcelona jazz & soul musicians',
       body: 'Trusted collaborators depending on format, date and what the room needs — always professional, always musical.',
     },
+    galleryCaption:
+      'Press photos: Sinead Savage with ensemble (The Flytones), and live performance moments — the Jazzmarried circle is built from musicians active on the Barcelona scene.',
   },
   media: {
     title: 'Media',
-    intro: 'Replace placeholders with your live footage when ready.',
+    intro: 'Live clip with voice and band, plus photos from recent bookings. Add dedicated organ-trio or solo piano clips when you have them.',
     items: [
       { title: 'Voice & band — live example', hint: 'Add video URL here' },
-      { title: 'Organ trio / soul-jazz — live example', hint: 'Add video URL here' },
-      { title: 'Piano solo / cocktail atmosphere — live example', hint: 'Add video URL here' },
+      { title: 'Organ trio / soul-jazz — still from live line-up', hint: 'Add video URL here' },
+      { title: 'Piano solo / cocktail atmosphere — live moment', hint: 'Add video URL here' },
     ],
   },
   why: {

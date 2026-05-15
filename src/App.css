@@ -233,8 +233,8 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(120deg, rgba(20, 18, 16, 0.15), rgba(20, 18, 16, 0.55)),
-    url('/hero-placeholder.svg') center / cover no-repeat;
+    linear-gradient(120deg, rgba(20, 18, 16, 0.35), rgba(20, 18, 16, 0.72)),
+    url('/images/band-sinead-flytones.png') center 22% / cover no-repeat;
   transform: scale(1.02);
 }
 
@@ -520,6 +520,66 @@
 }
 
 /* ——— Artists ——— */
+.artist-gallery {
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.artist-gallery__item {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+.artist-gallery__item--wide {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.artist-gallery__item--wide + .artist-gallery__item {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.artist-gallery__item--wide + .artist-gallery__item + .artist-gallery__item {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.artist-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 120px;
+}
+
+@media (min-width: 640px) {
+  .artist-gallery {
+    grid-template-columns: 1.35fr 1fr 1fr;
+    grid-template-rows: minmax(240px, 28vw);
+    max-height: 380px;
+  }
+
+  .artist-gallery__item--wide,
+  .artist-gallery__item--wide + .artist-gallery__item,
+  .artist-gallery__item--wide + .artist-gallery__item + .artist-gallery__item {
+    grid-column: auto;
+    grid-row: 1;
+  }
+}
+
+.artist-gallery__caption {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: color-mix(in srgb, var(--charcoal) 72%, transparent);
+  max-width: 70ch;
+}
+
 .artist-blocks {
   list-style: none;
   margin: 0;
@@ -575,6 +635,26 @@
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
+  background: #141210;
+}
+
+.media-card__video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.media-card__photo {
+  aspect-ratio: 16 / 9;
+  margin: 0;
+}
+
+.media-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .media-card__placeholder {

@@ -3,7 +3,11 @@ import { en } from '../content/en'
 export function Hero() {
   return (
     <section id="top" className="hero" aria-labelledby="hero-heading">
-      <div className="hero__bg" role="img" aria-label="Warm evening atmosphere placeholder — replace with your photography">
+      <div
+        className="hero__bg"
+        role="img"
+        aria-label="Black and white photograph of vocalist Sinead Savage with band members outdoors in Barcelona."
+      >
         <div className="hero__bg-image" />
         <div className="hero__scrim" />
       </div>
