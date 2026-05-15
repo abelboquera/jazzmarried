@@ -277,8 +277,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Portrait source in wide hero: cover crops top/bottom — keep feet in frame. */
-  object-position: center bottom;
+  object-position: center 28%;
   pointer-events: none;
 }
 
