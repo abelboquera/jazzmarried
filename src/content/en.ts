@@ -23,11 +23,16 @@ export const en = {
     trustLine: 'Barcelona-based collective · 15+ years of live music experience · Custom live formats',
     ctaPrimary: 'Request availability',
     ctaSecondary: 'Explore formats',
+    soundOn: 'Sound on',
+    soundMute: 'Mute',
+    soundHint: 'Autoplay starts muted — tap to listen.',
+    soundOnAria: 'Turn on sound for the hero video',
+    soundMuteAria: 'Mute the hero video',
   },
   about: {
     title: 'About',
     p1: 'Jazzmarried is a live music collective for weddings and private events inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds. Based in Barcelona, we bring together professional musicians, singers, DJs and live sound specialists with more than 15 years of experience in live music, private events, clubs, festivals and weddings.',
-    p2: 'From intimate piano solo performances to voice-led bands, organ trio grooves, full soul-jazz lineups or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
+    p2: 'From intimate piano solo or singer-guitarist solo sets to voice-led bands, organ trio grooves, full soul-jazz lineups or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
     p3: 'Our focus is simple: real musicians, tasteful repertoire, professional sound and a live experience that feels elegant, warm and authentic.',
   },
   formats: {
@@ -37,6 +42,10 @@ export const en = {
       {
         title: 'Piano solo',
         body: 'Perfect for ceremonies, intimate cocktails and elegant dinners.',
+      },
+      {
+        title: 'Solo artist & singer — David Philips',
+        body: 'Acoustic guitar and vocals in a focused, professional solo set — ideal for ceremonies, intimate cocktails and smaller rooms when one musician carries the room with clarity and warmth.',
       },
       {
         title: 'Duo',
@@ -111,7 +120,13 @@ export const en = {
       },
     ],
     networkNote:
-      'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
+      'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage, solo artists such as David Philips, and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
+    davidPhilips: {
+      title: 'David Philips — solo artist & singer',
+      body: 'Available as a dedicated solo format through Jazzmarried: acoustic-led repertoire, professional stagecraft, and a sound that fits ceremonies, cocktails and more intimate celebrations.',
+      image: '/images/david-philips-solo.png',
+      imageAlt: 'David Philips with acoustic guitar — solo singer-guitarist.',
+    },
   },
   media: {
     title: 'Media',

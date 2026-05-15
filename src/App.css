@@ -314,6 +314,52 @@
   gap: 0.75rem;
 }
 
+.hero__sound-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero__sound-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  background: color-mix(in srgb, var(--ivory) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ivory) 38%, transparent);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.hero__sound-toggle:hover {
+  background: color-mix(in srgb, var(--ivory) 18%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 55%, var(--ivory));
+}
+
+.hero__sound-toggle[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--gold) 22%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 65%, transparent);
+}
+
+.hero__sound-hint {
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--ivory) 68%, transparent);
+  max-width: 36ch;
+  line-height: 1.4;
+}
+
 .hero .btn--primary {
   background: var(--ivory);
   color: var(--ink);
@@ -599,6 +645,53 @@
   font-size: 0.85rem;
   color: color-mix(in srgb, var(--charcoal) 72%, transparent);
   max-width: 70ch;
+}
+
+.artist-spotlight {
+  display: grid;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  background: var(--white);
+  border: 1px solid color-mix(in srgb, var(--charcoal) 8%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 720px) {
+  .artist-spotlight {
+    grid-template-columns: minmax(0, 280px) 1fr;
+    gap: 1.5rem;
+    padding: 1.35rem 1.5rem;
+  }
+}
+
+.artist-spotlight__media {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
+}
+
+.artist-spotlight__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.artist-spotlight__title {
+  margin: 0 0 0.5rem;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.artist-spotlight__body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: color-mix(in srgb, var(--charcoal) 90%, transparent);
 }
 
 .artist-blocks {

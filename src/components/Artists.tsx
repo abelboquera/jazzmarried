@@ -44,6 +44,25 @@ export function Artists() {
         </div>
         <p className="artist-gallery__caption">{en.artists.galleryCaption}</p>
 
+        <article className="artist-spotlight" aria-labelledby="david-philips-heading">
+          <div className="artist-spotlight__media">
+            <img
+              src={en.artists.davidPhilips.image}
+              width={800}
+              height={450}
+              alt={en.artists.davidPhilips.imageAlt}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="artist-spotlight__text">
+            <h3 id="david-philips-heading" className="artist-spotlight__title">
+              {en.artists.davidPhilips.title}
+            </h3>
+            <p className="artist-spotlight__body">{en.artists.davidPhilips.body}</p>
+          </div>
+        </article>
+
         <ul className="artist-blocks">
           {en.artists.blocks.map((b) => (
             <li key={b.title} className="artist-block">
