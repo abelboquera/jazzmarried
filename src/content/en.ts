@@ -37,7 +37,7 @@ export const en = {
       'Run by working musicians and event professionals, the collective brings together singers, instrumentalists, DJs and live sound specialists with more than 15 years of experience in weddings, private events, clubs, festivals and international stages.',
       'Jazzmarried is rooted in the local, national and international jazz, soul and rhythm & blues scene. The collective works with internationally connected musicians — professionals used to clubs, festivals, private events, international seasons and high-level work on professional stages — and assembles trusted, high-quality lineups tailored to each event, without borrowing other artists’ names as selling points.',
       'We also have strong experience performing abroad, especially in Switzerland, where part of our team has worked every winter season for more than a decade. With fluent English communication and a flexible approach to formats, Jazzmarried is a natural fit for international couples, destination weddings and private events in Barcelona and beyond.',
-      'From intimate piano solo performances to voice-led bands, organ trio grooves, full soul-jazz lineups, DJ sets or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room.',
+      'From intimate piano solo performances to voice-led bands, organ trio grooves, full soul-jazz lineups, DJ sets or live music plus DJ combinations, Jazzmarried adapts the music to the space, the atmosphere and the people in the room. Core combinations can stay small and then grow in place — the same musicians who start as a duo are often the ones who step up into trio or quartet when the night asks for it, so the sound stays coherent instead of feeling like a different cast at every size.',
     ],
   },
   formats: {
@@ -50,7 +50,7 @@ export const en = {
       },
       {
         title: 'Duo',
-        body: 'Voice & piano, sax & piano, guitar & voice, or other intimate combinations.',
+        body: 'Voice & piano, guitar & voice, piano & guitar — often drawn from the same core so a duo can grow into trio or quartet without losing chemistry.',
       },
       {
         title: 'Jazz trio',
@@ -108,18 +108,26 @@ export const en = {
     title: 'Artists',
     galleryCaption:
       'Moments from collective bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
+    shuShusPhotoCaption:
+      'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
+    sineadLivePhotoCaption:
+      'Sinead Savage — live vocalist with quartet, trio and voice-led Jazzmarried line-ups.',
+    sineadPortraitPhotoCaption:
+      'Sinead Savage — soul, jazz and vintage repertoire for cocktails, dinners and celebrations.',
     davidPhotoCaption:
-      'David Philips — singer-guitarist, often booked solo or as a duo for ceremonies, cocktails and intimate rooms.',
+      'David Philips — singer-guitarist for solo or duo with Sinead; combines with Abel when the line-up grows to trio or quartet.',
+    abelPhotoCaption:
+      'Abel Boquera — piano solo or duos with Sinead or David; the same core opens into trio and quartet when you want more lift.',
     paragraphs: [
-      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The Media section below includes ensemble clips with vocalist Sinead Savage (quartet, trio and related formats) and solo/duo examples with singer-guitarist David Philips.',
-      'Depending on the format and date, the collective may include vocalists such as Sinead Savage and musicians connected to projects like The Shu Shu’s. More broadly, Jazzmarried draws on a trusted network of Barcelona-based, internationally connected musicians from the professional jazz, soul and rhythm & blues world — people with real experience on stages, in clubs, at festivals and in private and international settings — to build lineups that fit your event, not a fixed catalogue or implied celebrity roster.',
-      'This network allows us to create flexible lineups for each event while keeping a clear musical identity: warm sound, real musicianship, elegant presentation and soulful energy.',
+      'Jazzmarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The working core is deliberately modular: Abel may play piano solo or in duos with Sinead or with David; David can be solo or in duo with Sinead. When you need more body in the room, the same people step up into trio or quartet line-ups — the vocabulary is already shared, so it reads as one band, not a different pick-up group every time you add a chair.',
+      'The Media section below includes ensemble clips with vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, and solo/duo examples with David Philips. Depending on format and date, bookings may also draw on the collective’s wider trusted pool — always with transparency on who plays and why.',
+      'That flexibility is the point: lean and intimate when you need it, fuller when the celebration asks for it — with musicians who already know how to work the room together.',
     ],
   },
   media: {
     title: 'Media',
     intro:
-      'Live clips with Jazzmarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, plus solo and duo clips with singer-guitarist David Philips for intimate settings.',
+      'Live clips with Jazzmarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, plus solo and duo clips with David Philips — the same musical world that scales from intimate pairs up to fuller bands.',
     items: [
       { title: 'Voice & band — live example', youtubeId: '4BrkJO9TEQE' },
       { title: 'Organ trio / soul-jazz — live example', youtubeId: '4mAQpno3tMo' },
