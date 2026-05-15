@@ -123,9 +123,13 @@ export const en = {
       'Depending on format and date, Jazzmarried works with a trusted circle of collaborators — including singers such as Sinead Savage, solo artists such as David Philips, and musicians connected to The Shu Shu’s. They are part of the wider musical world around the collective, not the whole story.',
     davidPhilips: {
       title: 'David Philips — solo artist & singer',
-      body: 'Available as a dedicated solo format through Jazzmarried: acoustic-led repertoire, professional stagecraft, and a sound that fits ceremonies, cocktails and more intimate celebrations.',
+      body: 'Available solo or as a duo through Jazzmarried: acoustic-led repertoire, professional stagecraft, and a sound that fits ceremonies, cocktails and more intimate celebrations.',
       image: '/images/david-philips-solo.png',
       imageAlt: 'David Philips with acoustic guitar — solo singer-guitarist.',
+      videos: [
+        { label: 'Solo', youtubeId: 'ev519Wnk22c', title: 'David Philips — solo (live)' },
+        { label: 'Duo', youtubeId: 'J22zUecZVlU', title: 'David Philips — duo (live)' },
+      ],
     },
   },
   media: {

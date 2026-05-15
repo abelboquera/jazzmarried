@@ -648,9 +648,9 @@
 }
 
 .artist-spotlight {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 1.25rem;
-  align-items: center;
   margin-bottom: 1rem;
   padding: 1.25rem;
   border-radius: var(--radius);
@@ -659,12 +659,53 @@
   box-shadow: var(--shadow-soft);
 }
 
+.artist-spotlight__row {
+  display: grid;
+  gap: 1.25rem;
+  align-items: center;
+}
+
 @media (min-width: 720px) {
   .artist-spotlight {
-    grid-template-columns: minmax(0, 280px) 1fr;
     gap: 1.5rem;
     padding: 1.35rem 1.5rem;
   }
+
+  .artist-spotlight__row {
+    grid-template-columns: minmax(0, 280px) 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.artist-spotlight__embeds {
+  display: grid;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+@media (min-width: 860px) {
+  .artist-spotlight__embeds {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.artist-spotlight__embed {
+  width: 100%;
+}
+
+.artist-spotlight__video-label {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--charcoal) 65%, transparent);
+}
+
+.artist-spotlight__embed .media-card__embed {
+  border-radius: var(--radius-sm);
 }
 
 .artist-spotlight__media {
