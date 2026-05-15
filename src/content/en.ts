@@ -107,7 +107,10 @@ export const en = {
   artists: {
     title: 'Artists',
     galleryCaption:
-      'Moments from collective bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
+      'Moments from collective bookings: real rooms, real musicians, real energy. Five photos in the carousel — use arrows or dots to browse. You can swap or extend these shots anytime from your own press library.',
+    carouselAriaLabel: 'Artist and band photos — press gallery',
+    carouselPrev: 'Previous photo',
+    carouselNext: 'Next photo',
     shuShusPhotoCaption:
       'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
     sineadBandPhotoCaption:
