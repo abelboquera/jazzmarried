@@ -115,12 +115,12 @@ export const en = {
   },
   media: {
     title: 'Media',
-    intro: 'Short clips sell the feel better than words. Drop in YouTube embeds or hosted files when you are ready.',
+    intro: 'Short clips from recent line-ups — quartet, trio and jazz-focused formats.',
     items: [
-      { title: 'Voice & band — live example', hint: 'Add video URL here' },
-      { title: 'Organ trio / soul-jazz — live example', hint: 'Add video URL here' },
-      { title: 'Piano solo / cocktail atmosphere — live example', hint: 'Add video URL here' },
-      { title: 'DJ / celebration atmosphere — live example', hint: 'Add video URL here' },
+      { title: 'Quartet — live example', youtubeId: '4BrkJO9TEQE' },
+      { title: 'Trio — live example', youtubeId: '4mAQpno3tMo' },
+      { title: 'Jazz quartet — live example', youtubeId: 'W6_83mZIhK8' },
+      { title: 'Jazz trio — live example', youtubeId: '3G8Tsb0clSk' },
     ],
   },
   why: {
