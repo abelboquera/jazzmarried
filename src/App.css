@@ -277,8 +277,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Portrait clip: nudge below 28% to lose empty headroom without bottom-only framing. */
-  object-position: center 58%;
+  /* Portrait clip: between 28% (too much headroom) and 58% (a bit low). */
+  object-position: center 48%;
   pointer-events: none;
 }
 
