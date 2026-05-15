@@ -20,7 +20,22 @@ export function Artists() {
                 src="/images/band-sinead-flytones.jpg"
                 width={3208}
                 height={2104}
-                alt="Sinead Savage with The Flytones — group photo outdoors in Barcelona."
+                alt="Sinead Savage with The Flytones — voice-led band outdoors in Barcelona."
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <figcaption className="artist-gallery__credit">
+              {en.artists.sineadBandPhotoCaption}
+            </figcaption>
+          </figure>
+          <figure className="artist-gallery__item">
+            <div className="artist-gallery__thumb">
+              <img
+                src="/images/shu-shus-trio.png"
+                width={1024}
+                height={678}
+                alt="The Shu Shu’s — instrumental trio, promotional black and white portrait of three musicians."
                 loading="lazy"
                 decoding="async"
               />
@@ -41,22 +56,7 @@ export function Artists() {
               />
             </div>
             <figcaption className="artist-gallery__credit">
-              {en.artists.sineadLivePhotoCaption}
-            </figcaption>
-          </figure>
-          <figure className="artist-gallery__item">
-            <div className="artist-gallery__thumb">
-              <img
-                src="/images/sinead-portrait.jpg"
-                width={3456}
-                height={2108}
-                alt="Sinead Savage — vocalist with Jazzmarried collective line-ups."
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <figcaption className="artist-gallery__credit">
-              {en.artists.sineadPortraitPhotoCaption}
+              {en.artists.sineadPhotoCaption}
             </figcaption>
           </figure>
         </div>

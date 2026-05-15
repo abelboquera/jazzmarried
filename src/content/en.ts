@@ -110,10 +110,10 @@ export const en = {
       'Moments from collective bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
     shuShusPhotoCaption:
       'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
-    sineadLivePhotoCaption:
-      'Sinead Savage — live vocalist with quartet, trio and voice-led Jazzmarried line-ups.',
-    sineadPortraitPhotoCaption:
-      'Sinead Savage — soul, jazz and vintage repertoire for cocktails, dinners and celebrations.',
+    sineadBandPhotoCaption:
+      'Sinead Savage with The Flytones — voice-led quartet and trio line-ups when the room wants a fuller band.',
+    sineadPhotoCaption:
+      'Sinead Savage — live vocalist for soul, jazz and vintage repertoire on Jazzmarried stages.',
     davidPhotoCaption:
       'David Philips — singer-guitarist for solo or duo with Sinead; combines with Abel when the line-up grows to trio or quartet.',
     abelPhotoCaption:
