@@ -118,10 +118,11 @@ export const en = {
   media: {
     title: 'Media',
     intro:
-      'Live clips with Jazzmarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), plus solo and duo performances with singer-guitarist David Philips for intimate settings.',
+      'Live clips with Jazzmarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, plus solo and duo clips with singer-guitarist David Philips for intimate settings.',
     items: [
       { title: 'Voice & band — live example', youtubeId: '4BrkJO9TEQE' },
       { title: 'Organ trio / soul-jazz — live example', youtubeId: '4mAQpno3tMo' },
+      { title: 'The Shu Shu’s — instrumental trio (live)', youtubeId: 'WB668UQoq4I' },
       { title: 'Piano solo / cocktail atmosphere — live example', youtubeId: 'W6_83mZIhK8' },
       { title: 'DJ / celebration atmosphere — live example', youtubeId: '3G8Tsb0clSk' },
       { title: 'David Philips — solo (voice & guitar)', youtubeId: 'ev519Wnk22c' },
