@@ -6,6 +6,7 @@ export const en = {
   site: {
     name: 'Jazzmarried',
     tagline: 'Live jazz, soul & vintage music for weddings and private events.',
+    logoTagline: 'Live music with soul — from “I do” to the last dance.',
   },
   nav: {
     about: 'About',

@@ -23,23 +23,53 @@
 
 .logo {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.6rem;
+  max-width: min(16rem, 46vw);
   color: var(--ink);
   text-decoration: none;
+}
+
+.logo:hover .logo__text {
+  color: var(--burgundy);
+}
+
+.logo:hover .logo__tagline {
+  color: color-mix(in srgb, var(--burgundy) 55%, var(--charcoal));
+}
+
+.logo__stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.12rem;
+  line-height: 1.15;
+  min-width: 0;
+}
+
+.logo__text {
   font-family: var(--serif);
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 1.35rem;
+  color: inherit;
 }
 
-.logo:hover {
-  color: var(--burgundy);
+.logo__tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--charcoal) 72%, transparent);
 }
 
 .logo__mark {
   width: 10px;
   height: 10px;
+  margin-top: 0.5em;
+  flex-shrink: 0;
   border-radius: 50%;
   background: radial-gradient(circle at 30% 30%, var(--gold), #7a5a28);
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 35%, transparent);

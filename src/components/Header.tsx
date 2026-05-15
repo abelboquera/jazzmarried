@@ -18,7 +18,10 @@ export function Header() {
       <div className="shell site-header__inner">
         <a className="logo" href="#top" onClick={() => setOpen(false)}>
           <span className="logo__mark" aria-hidden="true" />
-          <span className="logo__text">{en.site.name}</span>
+          <span className="logo__stack">
+            <span className="logo__text">{en.site.name}</span>
+            <span className="logo__tagline">{en.site.logoTagline}</span>
+          </span>
         </a>
 
         <nav
