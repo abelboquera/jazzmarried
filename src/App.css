@@ -215,7 +215,7 @@
 /* ——— Hero ——— */
 .hero {
   position: relative;
-  min-height: min(88vh, 820px);
+  min-height: min(96vh, 920px);
   display: flex;
   align-items: flex-end;
   color: var(--ivory);
@@ -227,15 +227,36 @@
   inset: 0;
   z-index: -1;
   overflow: hidden;
+  background: #141210;
 }
 
-.hero__bg-image {
+.hero__bg-fallback {
+  display: none;
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(120deg, rgba(20, 18, 16, 0.2), rgba(20, 18, 16, 0.62)),
-    url('/hero-placeholder.svg') center / cover no-repeat;
-  transform: scale(1.02);
+    linear-gradient(120deg, rgba(20, 18, 16, 0.35), rgba(20, 18, 16, 0.72)),
+    url('/images/band-sinead-flytones.png') center 28% / cover no-repeat;
+}
+
+.hero__bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg-video {
+    display: none;
+  }
+
+  .hero__bg-fallback {
+    display: block;
+  }
 }
 
 .hero__scrim {
@@ -285,6 +306,52 @@
   font-size: 0.95rem;
   letter-spacing: 0.04em;
   color: color-mix(in srgb, var(--gold) 95%, var(--ivory));
+}
+
+.hero__sound-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero__sound-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  background: color-mix(in srgb, var(--ivory) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ivory) 38%, transparent);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.hero__sound-toggle:hover {
+  background: color-mix(in srgb, var(--ivory) 18%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 55%, var(--ivory));
+}
+
+.hero__sound-toggle[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--gold) 22%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 65%, transparent);
+}
+
+.hero__sound-hint {
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--ivory) 68%, transparent);
+  max-width: 36ch;
+  line-height: 1.4;
 }
 
 .hero__cta {

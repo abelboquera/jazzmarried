@@ -23,6 +23,11 @@ export const en = {
     eyebrow: 'Barcelona · weddings, private events & destination celebrations',
     ctaPrimary: 'Request availability',
     ctaSecondary: 'Explore formats',
+    soundOn: 'Sound on',
+    soundMute: 'Mute',
+    soundHint: 'Autoplay starts muted — tap to listen.',
+    soundOnAria: 'Turn on sound for the hero video',
+    soundMuteAria: 'Mute the hero video',
   },
   about: {
     title: 'About',
