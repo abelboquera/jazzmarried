@@ -245,7 +245,7 @@
 /* ——— Hero ——— */
 .hero {
   position: relative;
-  min-height: min(96vh, 920px);
+  min-height: min(78vh, 780px);
   display: flex;
   align-items: flex-end;
   color: var(--ivory);
@@ -254,10 +254,12 @@
 
 .hero__bg {
   position: absolute;
-  inset: 0;
+  inset: clamp(0.65rem, 2vw, 1.1rem) var(--space) clamp(0.65rem, 2vw, 1.25rem) var(--space);
   z-index: -1;
   overflow: hidden;
   background: #141210;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
 }
 
 .hero__bg-fallback {
