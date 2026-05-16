@@ -20,7 +20,7 @@ export const en = {
   hero: {
     headline: 'Live Jazz, Soul & Vintage Music in Barcelona',
     subtitle:
-      'Elegant live jazz, soul and vintage sounds for ceremonies, cocktails, dinners, corporate events, award ceremonies and private celebrations in Barcelona and beyond.',
+      'Tailored live music for weddings, corporate events, cocktails, dinners, hotels, restaurants and private celebrations in Barcelona and beyond.',
     trustLine:
       '15+ years on stage · Weddings, corporate & private events · English & Spanish · Barcelona & abroad',
     ctaPrimary: 'Enquire about your date',
