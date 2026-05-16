@@ -5,8 +5,8 @@
 export const en = {
   site: {
     name: 'JazzMarried',
-    tagline: 'Live jazz, soul & vintage music for weddings and private events.',
-    logoTagline: 'Live music with soul.',
+    tagline: 'Curated jazz, soul & vintage live music for weddings and private events.',
+    logoTagline: 'Curated live music',
   },
   nav: {
     about: 'About',
@@ -16,10 +16,11 @@ export const en = {
     contact: 'Contact',
   },
   hero: {
-    headline: 'Jazz, soul & vintage live music',
-    subtitle: 'Weddings and private events in Barcelona — and wherever you celebrate.',
-    trustLine: '15+ years on stage · Flexible lineups · Internationally connected',
-    ctaPrimary: 'Request availability',
+    headline: 'Curated live music for weddings & private events',
+    subtitle:
+      'We match format, energy and musicians to each moment of your day — from intimate solo to full band. Jazz, soul & vintage grooves in Barcelona and beyond.',
+    trustLine: '15+ years · Tailored lineups · Barcelona & destination events',
+    ctaPrimary: 'Plan your music',
     ctaSecondary: 'Explore formats',
     soundOn: 'Sound on',
     soundMute: 'Mute',
@@ -30,9 +31,9 @@ export const en = {
   about: {
     title: 'About',
     paragraphs: [
-      'The name JazzMarried nods to “Just Married”: a Barcelona-based live music collective for weddings and private events, inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds.',
-      'Run by working musicians and event professionals, the collective brings together singers, instrumentalists, DJs and live sound specialists with more than 15 years of experience in weddings, private events, clubs, festivals and international stages.',
-      'JazzMarried is rooted in the local, national and international jazz, soul and rhythm & blues scene. The collective works with internationally connected musicians — professionals used to clubs, festivals, private events, international seasons and high-level work on professional stages — and assembles trusted, high-quality lineups tailored to each event, without borrowing other artists’ names as selling points.',
+      'The name JazzMarried nods to “Just Married”: a Barcelona-based live music brand for weddings and private events. We curate formats and lineups inspired by jazz, soul, rhythm & blues, bossa nova and vintage sounds.',
+      'Run by working musicians and event professionals, we bring together singers, instrumentalists, DJs and live sound specialists with more than 15 years of experience in weddings, private events, clubs, festivals and international stages.',
+      'JazzMarried is rooted in the local, national and international jazz, soul and rhythm & blues scene. We work with internationally connected musicians — professionals used to clubs, festivals, private events, international seasons and high-level work on professional stages — and assemble trusted, high-quality lineups tailored to each event, with transparency on who plays and why.',
       'We also have strong experience performing abroad, especially in Switzerland, where part of our team has worked every winter season for more than a decade. With fluent English communication and a flexible approach to formats, JazzMarried is a natural fit for international couples, destination weddings and private events in Barcelona and beyond.',
       'From intimate piano solo or organ & drums duo performances to voice-led bands, organ trio grooves, full soul-jazz lineups, DJ sets or live music plus DJ combinations, JazzMarried adapts the music to the space, the atmosphere and the people in the room. Core combinations can stay small and then grow in place — the same musicians who start as a duo are often the ones who step up into trio or quartet when the night asks for it, so the sound stays coherent instead of feeling like a different cast at every size.',
     ],
@@ -114,7 +115,7 @@ export const en = {
   artists: {
     title: 'Artists',
     galleryCaption:
-      'Moments from collective bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
+      'Moments from curated bookings: real rooms, real musicians, real energy. You can swap or extend these shots anytime from your own press library.',
     shuShusPhotoCaption:
       'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
     sineadBandPhotoCaption:
@@ -127,7 +128,7 @@ export const en = {
       'Abel Boquera — piano solo, organ & drums duo, or duos with Sinead or David; the same core opens into trio and quartet when you want more lift.',
     paragraphs: [
       'JazzMarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The working core is deliberately modular: Abel may play piano solo, an organ & drums duo, or in duos with Sinead or with David; David can be solo or in duo with Sinead. When you need more body in the room, the same people step up into trio or quartet line-ups — the vocabulary is already shared, so it reads as one band, not a different pick-up group every time you add a chair.',
-      'Each format in the Formats section includes a live clip where we have one on camera — Sinead with band, The Shu Shu’s trio, David solo and duo, and more. Depending on format and date, bookings may also draw on the collective’s wider trusted pool — always with transparency on who plays and why.',
+      'Each format in the Formats section includes a live clip where we have one on camera — Sinead with band, The Shu Shu’s trio, David solo and duo, and more. Depending on format and date, we may also draw on our wider trusted network — always with transparency on who plays and why.',
       'That flexibility is the point: lean and intimate when you need it, fuller when the celebration asks for it — with musicians who already know how to work the room together.',
     ],
   },
@@ -182,7 +183,7 @@ export const en = {
     mailto: 'hello@jazzmarried.com',
   },
   footer: {
-    line1: 'Live jazz, soul & vintage music for weddings and private events.',
+    line1: 'Curated jazz, soul & vintage live music for weddings and private events.',
     line2: 'Barcelona · Available for destination events',
     links: {
       instagram: 'Instagram',

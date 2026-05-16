@@ -41,7 +41,7 @@ export function Hero() {
           playsInline
           preload="metadata"
           poster={HERO_POSTER}
-          aria-label="Live performance footage — JazzMarried collective on stage."
+          aria-label="Live performance footage — JazzMarried curated lineup on stage."
         >
           <source src={HERO_VIDEO_SRC} type="video/mp4" />
         </video>
