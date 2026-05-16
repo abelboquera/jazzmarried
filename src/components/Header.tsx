@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { JazzmarriedLogo } from './JazzmarriedLogo'
 import { en } from '../content/en'
 
 const nav = [
@@ -16,12 +17,8 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="shell site-header__inner">
-        <a className="logo" href="#top" onClick={() => setOpen(false)}>
-          <span className="logo__mark" aria-hidden="true" />
-          <span className="logo__stack">
-            <span className="logo__text">{en.site.name}</span>
-            <span className="logo__tagline">{en.site.logoTagline}</span>
-          </span>
+        <a className="logo" href="#top" onClick={() => setOpen(false)} aria-label={en.site.name}>
+          <JazzmarriedLogo />
         </a>
 
         <nav
