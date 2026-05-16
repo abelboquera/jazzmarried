@@ -5,23 +5,24 @@
 export const en = {
   site: {
     name: 'JazzMarried',
-    tagline: 'Live jazz, soul and swing for weddings and private events in Barcelona, Catalonia and beyond.',
-    logoTagline: 'Barcelona · weddings & events',
+    tagline:
+      'Live jazz, soul and vintage music for weddings, corporate events and private celebrations in Barcelona, Catalonia and beyond.',
+    logoTagline: 'Barcelona · live music',
   },
   nav: {
     home: 'Home',
-    weddings: 'Weddings',
+    weddings: 'Events',
     formats: 'Formats',
     videos: 'Videos',
     about: 'About',
     contact: 'Enquire',
   },
   hero: {
-    headline: 'Live Jazz & Soul Music for Weddings in Barcelona',
+    headline: 'Live Jazz, Soul & Vintage Music in Barcelona',
     subtitle:
-      'Elegant live music for ceremonies, cocktails, dinners and private celebrations — performed by professional musicians from Barcelona’s jazz and soul scene.',
+      'Elegant live jazz, soul and vintage sounds for ceremonies, cocktails, dinners, corporate events, award ceremonies and private celebrations in Barcelona and beyond.',
     trustLine:
-      'Professional musicians · Ceremony to party · Barcelona, Catalonia & destination events',
+      '15+ years on stage · Weddings, corporate & private events · English & Spanish · Barcelona & abroad',
     ctaPrimary: 'Enquire about your date',
     ctaSecondary: 'Watch videos',
     soundOn: 'Sound on',
@@ -33,17 +34,18 @@ export const en = {
   about: {
     title: 'About',
     paragraphs: [
-      'JazzMarried is a Barcelona-based collective of professional musicians connected to the local, national and international jazz and soul scene. We bring together experienced performers for weddings and private events, with a flexible approach to each couple, venue and atmosphere.',
-      'The name nods to “Just Married”: our world is jazz, soul, swing, rhythm & blues, bossa nova and vintage grooves — curated for the room, not played from a generic playlist.',
-      'Our musicians regularly perform in clubs, festivals, restaurants, hotels and private events, with experience working for international audiences in Spain, Switzerland and beyond.',
-      'We work comfortably in English, Spanish and Catalan, which keeps planning straightforward for local and international couples.',
-      'From solo piano or organ & drums duo to voice-led groups, soul-jazz trios, larger bands, DJ sets or live music plus DJ, we adapt the lineup to your schedule and the energy you want at each moment of the day.',
+      'JazzMarried is a Barcelona-based collective of professional musicians connected to the local, national and international jazz and soul scene. We bring together experienced performers for weddings, corporate events and private celebrations — with a flexible approach to each venue, schedule and atmosphere.',
+      'Our world is jazz, soul, swing, rhythm & blues, bossa nova, funk and vintage grooves — curated for the room, not played from a generic playlist.',
+      'Originally inspired by a play on “Just Married”, JazzMarried has grown into a flexible live music collective for weddings, corporate events and private celebrations.',
+      'Our musicians regularly perform in clubs, festivals, restaurants, hotels, congresses and private events, with more than 15 years of experience and a strong track record with international audiences in Spain, Switzerland and beyond.',
+      'We work comfortably in English and Spanish, which keeps planning straightforward for local and international clients.',
+      'From solo piano or organ & drums duo to voice-led groups, soul-jazz trios, larger bands, DJ sets, live music plus DJ and discreet sound support, we adapt the lineup to your event and the energy you want in the room.',
     ],
   },
   formats: {
     title: 'Formats',
     intro:
-      'From intimate duos to full soul-jazz bands, JazzMarried adapts the lineup to the venue, schedule and atmosphere of each event.',
+      'From intimate duos to full soul-jazz bands — for weddings, corporate gatherings, hotels, restaurants and private celebrations. We adapt the lineup to the venue, schedule and atmosphere.',
     items: [
       {
         title: 'Solo piano',
@@ -95,7 +97,8 @@ export const en = {
   },
   moments: {
     title: 'Music for every moment of the day',
-    intro: 'Where JazzMarried fits in your wedding or celebration — and how the music can shift with the day.',
+    intro:
+      'How live music can shape a ceremony, a cocktail, a seated dinner or a late set — at weddings, corporate events, hotels, restaurants and private celebrations.',
     items: [
       {
         title: 'Ceremony',
@@ -114,15 +117,15 @@ export const en = {
         body: 'Groovier soul, blues, funk and upbeat jazz for guests who want to move.',
       },
       {
-        title: 'Private events',
-        body: 'Corporate events, private parties, hotels, restaurants and international celebrations across Catalonia and beyond.',
+        title: 'Corporate & private events',
+        body: 'Corporate gatherings, award ceremonies, brand events, congresses, hotels, restaurants and private parties across Catalonia and beyond.',
       },
     ],
   },
   artists: {
     title: 'Musicians',
     galleryCaption:
-      'Recent weddings and private events — real rooms, real musicians, real energy.',
+      'Recent events — weddings, corporate gatherings and private celebrations. Real rooms, real musicians, real energy.',
     shuShusPhotoCaption:
       'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
     sineadBandPhotoCaption:
@@ -144,19 +147,20 @@ export const en = {
     items: [
       'Real jazz and soul musicians — not generic backing-track entertainment',
       'Flexible lineups from solo piano to larger band',
-      'Ceremony, cocktail, dinner and party options',
+      'Weddings, corporate events and private celebrations',
+      'Ceremony, cocktail, dinner and late-set options',
+      'More than 15 years of live music and event experience',
       'Professional musicians from Barcelona’s jazz and soul scene',
-      'Experience with international guests and destination events',
-      'English, Spanish and Catalan',
+      'Internationally connected · experience in Switzerland and abroad',
+      'Fluent English and Spanish',
       'Warm, elegant sound that fits the room',
       'Live clips so you can hear the formats before you book',
-      'Transparent about who plays on your date',
       'Live music, DJ and sound support available',
     ],
   },
   contact: {
-    title: 'Tell us about your wedding',
-    lead: 'Share your date, venue, schedule and the kind of atmosphere you imagine. We’ll suggest the most suitable format and prepare a tailored proposal.',
+    title: 'Tell us about your event',
+    lead: 'Share your date, venue, schedule and the atmosphere you have in mind. We’ll suggest a suitable format and prepare a tailored proposal.',
     formNote: 'Submitting opens your email app with your message ready to send.',
     closing:
       'Tell us what you have in mind — we’ll reply with practical format ideas and next steps.',
@@ -189,7 +193,7 @@ export const en = {
     mailto: 'hello@jazzmarried.com',
   },
   footer: {
-    line1: 'Live jazz, soul and swing for weddings and private events.',
+    line1: 'Live jazz, soul and vintage music for weddings, corporate events and private celebrations.',
     line2: 'Barcelona · Catalonia · Destination events',
     links: {
       instagram: 'Instagram',
