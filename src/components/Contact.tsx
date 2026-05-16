@@ -9,8 +9,7 @@ const momentOptions = [
   { value: 'ceremony', label: 'Ceremony' },
   { value: 'cocktail', label: 'Cocktail' },
   { value: 'dinner', label: 'Dinner' },
-  { value: 'celebration', label: 'Celebration' },
-  { value: 'afterparty', label: 'Afterparty' },
+  { value: 'party', label: 'Party / late set' },
   { value: 'other', label: 'Other' },
 ]
 
@@ -25,14 +24,15 @@ export function Contact() {
       `Email: ${fd.get('email') ?? ''}`,
       `Phone / WhatsApp: ${fd.get('phone') ?? ''}`,
       `Event date: ${fd.get('date') ?? ''}`,
-      `Event location: ${fd.get('location') ?? ''}`,
+      `Venue / city: ${fd.get('location') ?? ''}`,
       `Event type: ${fd.get('type') ?? ''}`,
       `Music moment: ${fd.get('moment') ?? ''}`,
+      `Approx. guests: ${fd.get('guests') ?? ''}`,
       `Preferred format: ${fd.get('format') ?? ''}`,
       '',
       String(fd.get('message') ?? ''),
     ]
-    const subject = encodeURIComponent(`JazzMarried inquiry — ${fd.get('date') ?? 'date TBC'}`)
+    const subject = encodeURIComponent(`JazzMarried enquiry — ${fd.get('date') ?? 'date TBC'}`)
     const body = encodeURIComponent(lines.join('\n'))
     window.location.href = `mailto:${MAIL}?subject=${subject}&body=${body}`
     setStatus('opened')
@@ -46,7 +46,6 @@ export function Contact() {
             <h2 className="section__title">{en.contact.title}</h2>
             <p className="contact-intro__lead">{en.contact.lead}</p>
             <p className="contact-intro__closing">{en.contact.closing}</p>
-            <p className="contact-intro__seo">{en.contact.seoParagraph}</p>
             <p className="contact-intro__mailto">
               {en.contact.mailtoNote}{' '}
               <a href={`mailto:${MAIL}`}>{en.contact.mailto}</a>
@@ -103,10 +102,14 @@ export function Contact() {
                 </select>
               </label>
               <label className="field">
-                <span className="field__label">{en.contact.fields.format}</span>
-                <input name="format" type="text" placeholder={en.contact.placeholders.format} />
+                <span className="field__label">{en.contact.fields.guests}</span>
+                <input name="guests" type="text" inputMode="numeric" placeholder={en.contact.placeholders.guests} />
               </label>
             </div>
+            <label className="field">
+              <span className="field__label">{en.contact.fields.format}</span>
+              <input name="format" type="text" placeholder={en.contact.placeholders.format} />
+            </label>
             <label className="field">
               <span className="field__label">{en.contact.fields.message}</span>
               <textarea name="message" rows={5} placeholder={en.contact.placeholders.message} />

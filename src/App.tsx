@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
 import { Formats } from './components/Formats'
+import { LiveClips } from './components/LiveClips'
 import { Moments } from './components/Moments'
 import { Artists } from './components/Artists'
 import { WhyJazzmarried } from './components/WhyJazzmarried'
@@ -19,9 +20,10 @@ function App() {
       <Header />
       <main id="main">
         <Hero />
-        <About />
-        <Formats />
         <Moments />
+        <Formats />
+        <LiveClips />
+        <About />
         <Artists />
         <WhyJazzmarried />
         <Contact />

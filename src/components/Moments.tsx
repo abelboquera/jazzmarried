@@ -3,7 +3,7 @@ import { RevealSection } from './RevealSection'
 
 export function Moments() {
   return (
-    <RevealSection id="moments" className="section section--moments">
+    <RevealSection id="weddings" className="section section--moments">
       <div className="shell section__inner">
         <div className="section__header">
           <h2 className="section__title">{en.moments.title}</h2>

@@ -3,10 +3,11 @@ import { JazzmarriedLogo } from './JazzmarriedLogo'
 import { en } from '../content/en'
 
 const nav = [
-  { href: '#about', label: en.nav.about },
+  { href: '#top', label: en.nav.home },
+  { href: '#weddings', label: en.nav.weddings },
   { href: '#formats', label: en.nav.formats },
-  { href: '#moments', label: en.nav.moments },
-  { href: '#artists', label: en.nav.artists },
+  { href: '#videos', label: en.nav.videos },
+  { href: '#about', label: en.nav.about },
   { href: '#contact', label: en.nav.contact },
 ]
 

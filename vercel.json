@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/portfolio", "destination": "/", "permanent": true },
+    { "source": "/clients", "destination": "/", "permanent": true },
+    { "source": "/info", "destination": "/", "permanent": true },
+    { "source": "/contact-us", "destination": "/#contact", "permanent": true },
+    { "source": "/media", "destination": "/#videos", "permanent": true }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

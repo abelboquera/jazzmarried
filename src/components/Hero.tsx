@@ -73,7 +73,7 @@ export function Hero() {
           <a className="btn btn--primary" href="#contact">
             {en.hero.ctaPrimary}
           </a>
-          <a className="btn btn--ghost" href="#formats">
+          <a className="btn btn--ghost" href="#videos">
             {en.hero.ctaSecondary}
           </a>
         </div>

@@ -312,7 +312,7 @@
 
 .hero__title {
   margin: 0 0 1rem;
-  max-width: 26ch;
+  max-width: min(28ch, 100%);
   font-family: var(--serif);
   font-weight: 600;
   font-style: normal;
@@ -465,6 +465,10 @@
   background: linear-gradient(180deg, var(--ivory-deep), var(--ivory));
 }
 
+.section--videos {
+  background: var(--white);
+}
+
 .section--moments {
   background: var(--white);
 }
@@ -557,13 +561,7 @@
 }
 
 .card-grid--formats {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-@media (min-width: 900px) {
-  .format-card--wide {
-    grid-column: span 2;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .format-card {
@@ -577,13 +575,6 @@
     transform 0.2s ease;
 }
 
-.format-card--has-media {
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
 .format-card:hover {
   border-color: color-mix(in srgb, var(--burgundy) 35%, var(--charcoal));
   transform: translateY(-3px);
@@ -593,53 +584,6 @@
   .format-card:hover {
     transform: none;
   }
-}
-
-.format-card__clips {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  background: #141210;
-}
-
-.format-card__clip + .format-card__clip {
-  border-top: 1px solid color-mix(in srgb, var(--ivory) 10%, transparent);
-}
-
-.format-card__embed {
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  position: relative;
-  background: #0a0a0a;
-}
-
-.format-card__embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.format-card__clip-label {
-  margin: 0;
-  padding: 0.45rem 0.65rem 0.55rem;
-  font-family: var(--display);
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-align: center;
-  color: color-mix(in srgb, var(--ivory) 72%, transparent);
-  background: #141210;
-}
-
-.format-card__content {
-  padding: 1.35rem 1.35rem 1.5rem;
-}
-
-.format-card--has-media .format-card__title {
-  margin-top: 0;
 }
 
 .format-card__title {
@@ -867,10 +811,14 @@
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .media-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
+
+.media-card {
+  margin: 0;
 }
 
 .media-card__frame {

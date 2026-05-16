@@ -1,10 +1,17 @@
 import { en } from '../content/en'
 
-const links = [
+const footerNav = [
+  { href: '#top', label: en.nav.home },
+  { href: '#weddings', label: en.nav.weddings },
+  { href: '#formats', label: en.nav.formats },
+  { href: '#videos', label: en.nav.videos },
+  { href: '#about', label: en.nav.about },
+  { href: '#contact', label: en.nav.contact },
+]
+
+const externalLinks = [
   { href: 'https://www.instagram.com/', label: en.footer.links.instagram, external: true },
   { href: 'https://www.bodas.net/', label: en.footer.links.bodas, external: true },
-  { href: 'https://example.com/the-shu-shus', label: en.footer.links.shushu, external: true },
-  { href: 'https://example.com/abel-boquera', label: en.footer.links.abel, external: true },
 ]
 
 export function Footer() {
@@ -18,9 +25,14 @@ export function Footer() {
         </div>
         <nav className="site-footer__nav" aria-label="Footer">
           <ul>
-            {links.map((l) => (
+            {footerNav.map((l) => (
               <li key={l.href}>
-                <a href={l.href} target={l.external ? '_blank' : undefined} rel={l.external ? 'noreferrer' : undefined}>
+                <a href={l.href}>{l.label}</a>
+              </li>
+            ))}
+            {externalLinks.map((l) => (
+              <li key={l.href}>
+                <a href={l.href} target="_blank" rel="noreferrer">
                   {l.label}
                 </a>
               </li>

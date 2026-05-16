@@ -33,7 +33,7 @@ export function Artists() {
                 src="/images/shu-shus-trio.png"
                 width={1024}
                 height={678}
-                alt="The Shu Shu’s — instrumental trio, promotional black and white portrait of three musicians."
+                alt="The Shu Shu’s — instrumental trio, portrait of three musicians."
                 loading="lazy"
                 decoding="async"
               />

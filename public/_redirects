@@ -1,0 +1,6 @@
+# Legacy template paths → single-page site (Netlify-style)
+/portfolio    /    301
+/clients      /    301
+/info         /    301
+/contact-us   /    301
+/media        /#videos    301
