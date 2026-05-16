@@ -1,7 +1,12 @@
+type Props = {
+  name: string
+  tagline: string
+}
+
 /**
- * Inline brand lockup: vinyl-inspired mark + wordmark (inherits .logo colour).
+ * Inline brand lockup: vinyl-inspired mark + wordmark + tagline (inherits .logo colour).
  */
-export function JazzmarriedLogo() {
+export function JazzmarriedLogo({ name, tagline }: Props) {
   return (
     <>
       <svg
@@ -33,7 +38,10 @@ export function JazzmarriedLogo() {
         <circle cx="24" cy="24" r="5.25" fill="currentColor" />
         <circle cx="24" cy="24" r="2" fill="var(--ivory)" />
       </svg>
-      <span className="logo__word">Jazzmarried</span>
+      <span className="logo__lockup">
+        <span className="logo__word">{name}</span>
+        <span className="logo__tagline">{tagline}</span>
+      </span>
     </>
   )
 }

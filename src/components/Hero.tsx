@@ -41,14 +41,13 @@ export function Hero() {
           playsInline
           preload="metadata"
           poster={HERO_POSTER}
-          aria-label="Live performance footage — Jazzmarried collective on stage."
+          aria-label="Live performance footage — JazzMarried collective on stage."
         >
           <source src={HERO_VIDEO_SRC} type="video/mp4" />
         </video>
         <div className="hero__scrim" aria-hidden="true" />
       </div>
       <div className="shell hero__content">
-        <p className="hero__eyebrow">{en.hero.eyebrow}</p>
         <h1 id="hero-heading" className="hero__title">
           {en.hero.headline}
         </h1>

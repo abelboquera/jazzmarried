@@ -9,7 +9,10 @@
   --brown: #353129;
   --white: #fafaf8;
   --sans: 'DM Sans', system-ui, -apple-system, sans-serif;
-  --serif: 'Fraunces', 'Georgia', serif;
+  /* Didone display — Blue Note / 60s sleeve elegance */
+  --serif: 'Libre Bodoni', 'Bodoni MT', 'Didot', 'Georgia', serif;
+  /* Condensed grotesk — Reid Miles–style rails & credits */
+  --display: 'Oswald', 'Arial Narrow', 'Helvetica Neue', sans-serif;
   --shadow-soft: 0 18px 50px rgba(20, 18, 16, 0.1);
   --radius: 10px;
   --radius-sm: 8px;

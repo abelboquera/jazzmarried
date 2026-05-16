@@ -17,8 +17,13 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="shell site-header__inner">
-        <a className="logo" href="#top" onClick={() => setOpen(false)} aria-label={en.site.name}>
-          <JazzmarriedLogo />
+        <a
+          className="logo"
+          href="#top"
+          onClick={() => setOpen(false)}
+          aria-label={`${en.site.name}. ${en.site.logoTagline}`}
+        >
+          <JazzmarriedLogo name={en.site.name} tagline={en.site.logoTagline} />
         </a>
 
         <nav

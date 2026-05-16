@@ -27,7 +27,7 @@ export function Footer() {
             ))}
           </ul>
         </nav>
-        <p className="site-footer__fine">© {new Date().getFullYear()} Jazzmarried. All rights reserved.</p>
+        <p className="site-footer__fine">© {new Date().getFullYear()} {en.site.name}. All rights reserved.</p>
       </div>
     </footer>
   )

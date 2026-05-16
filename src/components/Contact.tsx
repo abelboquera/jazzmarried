@@ -32,7 +32,7 @@ export function Contact() {
       '',
       String(fd.get('message') ?? ''),
     ]
-    const subject = encodeURIComponent(`Jazzmarried inquiry — ${fd.get('date') ?? 'date TBC'}`)
+    const subject = encodeURIComponent(`JazzMarried inquiry — ${fd.get('date') ?? 'date TBC'}`)
     const body = encodeURIComponent(lines.join('\n'))
     window.location.href = `mailto:${MAIL}?subject=${subject}&body=${body}`
     setStatus('opened')
