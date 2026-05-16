@@ -451,9 +451,9 @@
   background-image:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--ivory) 94%, transparent) 0%,
-      color-mix(in srgb, var(--white) 90%, transparent) 42%,
-      color-mix(in srgb, var(--ivory) 93%, transparent) 100%
+      color-mix(in srgb, var(--ivory) 86%, transparent) 0%,
+      color-mix(in srgb, var(--white) 78%, transparent) 42%,
+      color-mix(in srgb, var(--ivory) 84%, transparent) 100%
     ),
     url('/images/band-outdoor-deck.png');
   background-size: cover, cover;
@@ -556,6 +556,16 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.card-grid--formats {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (min-width: 900px) {
+  .format-card--wide {
+    grid-column: span 2;
+  }
+}
+
 .format-card {
   background: var(--white);
   border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
@@ -567,6 +577,13 @@
     transform 0.2s ease;
 }
 
+.format-card--has-media {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
 .format-card:hover {
   border-color: color-mix(in srgb, var(--burgundy) 35%, var(--charcoal));
   transform: translateY(-3px);
@@ -576,6 +593,53 @@
   .format-card:hover {
     transform: none;
   }
+}
+
+.format-card__clips {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #141210;
+}
+
+.format-card__clip + .format-card__clip {
+  border-top: 1px solid color-mix(in srgb, var(--ivory) 10%, transparent);
+}
+
+.format-card__embed {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  position: relative;
+  background: #0a0a0a;
+}
+
+.format-card__embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.format-card__clip-label {
+  margin: 0;
+  padding: 0.45rem 0.65rem 0.55rem;
+  font-family: var(--display);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: color-mix(in srgb, var(--ivory) 72%, transparent);
+  background: #141210;
+}
+
+.format-card__content {
+  padding: 1.35rem 1.35rem 1.5rem;
+}
+
+.format-card--has-media .format-card__title {
+  margin-top: 0;
 }
 
 .format-card__title {

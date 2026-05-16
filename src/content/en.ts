@@ -13,7 +13,6 @@ export const en = {
     formats: 'Formats',
     moments: 'Moments',
     artists: 'Artists',
-    media: 'Media',
     contact: 'Contact',
   },
   hero: {
@@ -40,35 +39,45 @@ export const en = {
   },
   formats: {
     title: 'Formats',
-    intro: 'Choose the scale, energy and flow that fit your space, schedule and crowd.',
+    intro:
+      'Choose the scale and energy that fit your event — each format below includes a real live clip when we have one on camera.',
     items: [
       {
         title: 'Piano solo',
         body: 'Perfect for ceremonies, intimate cocktails and elegant dinners. Abel also offers an organ & drums duo — compact, groove-led soul-jazz when you want more lift without a full band.',
+        clips: [{ label: 'Live — cocktail atmosphere', youtubeId: 'W6_83mZIhK8' }],
       },
       {
         title: 'Duo',
         body: 'Voice & piano, guitar & voice, piano & guitar — often drawn from the same core so a duo can grow into trio or quartet without losing chemistry.',
+        clips: [
+          { label: 'David Philips — duo', youtubeId: 'J22zUecZVlU' },
+          { label: 'David Philips — solo (voice & guitar)', youtubeId: 'ev519Wnk22c' },
+        ],
       },
       {
         title: 'Jazz trio',
         body: 'Warm jazz, bossa nova, blues and swing with more presence than a duo — ideal for cocktails and dinners that need a fuller acoustic sound.',
+        clips: [{ label: 'The Shu Shu’s — instrumental trio (live)', youtubeId: 'WB668UQoq4I' }],
       },
       {
         title: 'Organ trio',
         body: 'Soul-jazz and groove-led energy with organ, guitar or horns depending on the lineup — a strong option when you want character and warmth without a full big band.',
+        clips: [{ label: 'Live — organ trio / soul-jazz', youtubeId: '4mAQpno3tMo' }],
       },
       {
         title: 'Voice + band',
         body: 'A vocalist-led format for cocktails, dinners and celebrations with more energy.',
+        clips: [{ label: 'Live — voice & band', youtubeId: '4BrkJO9TEQE' }],
       },
       {
         title: 'Full soul-jazz band',
-        body: 'A larger live band for events that need rhythm, character and a stronger stage presence.',
+        body: 'A larger live band for events that need rhythm, character and a stronger stage presence — often built from the voice + band lineup.',
       },
       {
         title: 'DJ / live + DJ',
         body: 'For the final part of the celebration, with the option to combine live music and DJ.',
+        clips: [{ label: 'Live — celebration / DJ atmosphere', youtubeId: '3G8Tsb0clSk' }],
       },
       {
         title: 'Sound support',
@@ -118,22 +127,8 @@ export const en = {
       'Abel Boquera — piano solo, organ & drums duo, or duos with Sinead or David; the same core opens into trio and quartet when you want more lift.',
     paragraphs: [
       'JazzMarried works with a trusted network of musicians, singers, DJs and live sound professionals connected to Barcelona’s jazz, soul and event scene. The working core is deliberately modular: Abel may play piano solo, an organ & drums duo, or in duos with Sinead or with David; David can be solo or in duo with Sinead. When you need more body in the room, the same people step up into trio or quartet line-ups — the vocabulary is already shared, so it reads as one band, not a different pick-up group every time you add a chair.',
-      'The Media section below includes ensemble clips with vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, and solo/duo examples with David Philips. Depending on format and date, bookings may also draw on the collective’s wider trusted pool — always with transparency on who plays and why.',
+      'Each format in the Formats section includes a live clip where we have one on camera — Sinead with band, The Shu Shu’s trio, David solo and duo, and more. Depending on format and date, bookings may also draw on the collective’s wider trusted pool — always with transparency on who plays and why.',
       'That flexibility is the point: lean and intimate when you need it, fuller when the celebration asks for it — with musicians who already know how to work the room together.',
-    ],
-  },
-  media: {
-    title: 'Media',
-    intro:
-      'Live clips with JazzMarried line-ups: ensemble examples featuring vocalist Sinead Savage (quartet, trio and related formats), an instrumental trio performance with The Shu Shu’s, plus solo and duo clips with David Philips — the same musical world that scales from intimate pairs up to fuller bands.',
-    items: [
-      { title: 'Voice & band — live example', youtubeId: '4BrkJO9TEQE' },
-      { title: 'Organ trio / soul-jazz — live example', youtubeId: '4mAQpno3tMo' },
-      { title: 'The Shu Shu’s — instrumental trio (live)', youtubeId: 'WB668UQoq4I' },
-      { title: 'Piano solo / cocktail atmosphere — live example', youtubeId: 'W6_83mZIhK8' },
-      { title: 'DJ / celebration atmosphere — live example', youtubeId: '3G8Tsb0clSk' },
-      { title: 'David Philips — solo (voice & guitar)', youtubeId: 'ev519Wnk22c' },
-      { title: 'David Philips — duo', youtubeId: 'J22zUecZVlU' },
     ],
   },
   why: {

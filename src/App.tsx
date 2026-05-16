@@ -4,7 +4,6 @@ import { About } from './components/About'
 import { Formats } from './components/Formats'
 import { Moments } from './components/Moments'
 import { Artists } from './components/Artists'
-import { Media } from './components/Media'
 import { WhyJazzmarried } from './components/WhyJazzmarried'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
@@ -25,7 +24,6 @@ function App() {
         <Moments />
         <Artists />
         <WhyJazzmarried />
-        <Media />
         <Contact />
       </main>
       <Footer />
