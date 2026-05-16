@@ -87,7 +87,7 @@ export const en = {
       'Hear real performances from our formats — every clip is the same size so you can compare easily.',
     items: [
       { title: 'Solo piano — cocktail atmosphere', youtubeId: 'W6_83mZIhK8' },
-      { title: 'David Philips — duo', youtubeId: 'J22zUecZVlU' },
+      { title: 'David Philips — duo', youtubeId: 'A1vMhJQ9iSE' },
       { title: 'David Philips — solo (voice & guitar)', youtubeId: 'ev519Wnk22c' },
       { title: 'The Shu Shu’s — instrumental trio', youtubeId: 'WB668UQoq4I' },
       { title: 'Organ trio / soul-jazz', youtubeId: '4mAQpno3tMo' },
