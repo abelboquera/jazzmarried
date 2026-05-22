@@ -6,7 +6,7 @@ export const en = {
   site: {
     name: 'JazzMarried',
     tagline:
-      'Live jazz, soul and vintage music for weddings, corporate events and private celebrations in Barcelona, Catalonia and beyond.',
+      'Live jazz, soul and vintage music for weddings, corporate events, hotels, restaurants and private celebrations in Barcelona and beyond.',
     logoTagline: 'Barcelona · live music',
   },
   nav: {
@@ -18,11 +18,10 @@ export const en = {
     contact: 'Enquire',
   },
   hero: {
-    headline: 'Live Jazz, Soul & Vintage Music in Barcelona',
+    headline: 'Music for every moment of the day.',
     subtitle:
-      'Tailored live music for weddings, corporate events, cocktails, dinners, hotels, restaurants and private celebrations in Barcelona and beyond.',
-    trustLine:
-      '15+ years on stage · Weddings, corporate & private events · English & Spanish · Barcelona & abroad',
+      'How live music can shape a ceremony, a cocktail, a seated dinner or a late set — at weddings, corporate events, hotels, restaurants and private celebrations.',
+    trustLine: 'Barcelona · weddings, corporate events & private celebrations',
     ctaPrimary: 'Enquire about your date',
     ctaSecondary: 'Watch videos',
     soundOn: 'Sound on',
@@ -34,57 +33,60 @@ export const en = {
   about: {
     title: 'About',
     paragraphs: [
-      'JazzMarried is a Barcelona-based collective of professional musicians connected to the local, national and international jazz and soul scene. We bring together experienced performers for weddings, corporate events and private celebrations — with a flexible approach to each venue, schedule and atmosphere.',
-      'Our world is jazz, soul, swing, rhythm & blues, bossa nova, funk and vintage grooves — curated for the room, not played from a generic playlist.',
-      'Originally inspired by a play on “Just Married”, JazzMarried has grown into a flexible live music collective for weddings, corporate events and private celebrations.',
-      'Our musicians regularly perform in clubs, festivals, restaurants, hotels, congresses and private events, with more than 15 years of experience and a strong track record with international audiences in Spain, Switzerland and beyond.',
-      'We work comfortably in English and Spanish, which keeps planning straightforward for local and international clients.',
-      'From solo piano or organ & drums duo to voice-led groups, soul-jazz trios, larger bands, DJ sets, live music plus DJ and discreet sound support, we adapt the lineup to your event and the energy you want in the room.',
+      'JazzMarried is a Barcelona-based collective of world-class jazz, soul, and groove musicians, specializing in exceptional live music for weddings, corporate events, hotels, restaurants, and private celebrations.',
+      'Our world is jazz, soul, swing, rhythm & blues, bossa nova, funk, and vintage grooves — always curated for your event, your guests, and the atmosphere you want to create.',
+      'Made up of some of Europe’s top soul and funk musicians, the band have worked with legendary artists including Sharon Jones, Brian Jackson, Iggy Pop, Charlie Wood, and John Cale, and performed at renowned festivals including Montreux Jazz Festival, Jazz in Marciac, Delhi International Jazz Festival, Woodford Folk Festival, and Primavera Sound.',
+      'Each musician brings their own personality, style, and years of live experience to every performance, coming together to create the unmistakable energy, chemistry, and connection the band is so known for.',
+      'From solo piano and intimate duos to full ensembles and late-night DJ sets, we tailor every line-up to your event, your guests, and the experience you want them to remember. With JazzMarried, you can relax knowing every detail of the music is taken care of.',
     ],
   },
   formats: {
-    title: 'Formats',
+    title: 'Band formats',
     intro:
-      'From intimate duos to full soul-jazz bands — for weddings, corporate gatherings, hotels, restaurants and private celebrations. We adapt the lineup to the venue, schedule and atmosphere.',
+      'From intimate duos to full soul and jazz bands, we tailor each format to suit the style of the event, the atmosphere you want to create, and the experience you want your guests to have. Whether it’s relaxed background music, elegant dinner sets, or a packed dance floor later in the evening, we can shape the band around each moment of the day.',
+    partySet: {
+      title: 'The party set',
+      body: 'Our band have been captivating audiences for years. Bringing you vintage soul, blues and funk, we deliver an irresistible groove with a mix of timeless classics and infectious rhythms. Soulful vocals, tight-knit arrangements and electrifying energy work to get the audience on the dancefloor and grooving all night long.',
+    },
     items: [
       {
         title: 'Solo piano',
-        body: 'Elegant piano for ceremonies, dinners, restaurants and intimate receptions. Abel also offers an organ & drums duo when you want more groove without a full band.',
+        body: 'Elegant live piano for ceremonies, dinners, restaurants, and intimate receptions — creating a warm, sophisticated atmosphere without overpowering the room. For something with a little more groove, Abel also performs a unique organ and drums setup, playing both instruments live to create the feel and energy of a multi-instrument performance.',
       },
       {
         title: 'Duo',
-        body: 'Voice and piano, sax and piano, or guitar and voice — ideal for ceremonies and cocktails, and easy to grow into a trio when the evening opens up.',
+        body: 'A stylish and versatile live music option for ceremonies, cocktail receptions, dinners, and intimate celebrations. Choose from combinations including piano and vocals, guitar and vocals, or piano or guitar with saxophone, with the option to add saxophone to any setup for an extra layer of warmth, energy, and atmosphere.',
       },
       {
         title: 'Jazz trio',
-        body: 'Classic jazz trio format for cocktails, dinners and elegant receptions — warm jazz, bossa nova, blues and swing with more presence than a duo.',
+        body: 'A timeless live jazz setup for cocktail receptions, dinners, and elegant events — featuring warm jazz, bossa nova, blues, and swing with the richness, depth, and effortless atmosphere that a trio brings to the room.',
       },
       {
         title: 'Organ trio / soul-jazz trio',
-        body: 'A warmer, groovier sound with Hammond organ, guitar or sax, and drums — soul-jazz energy with character, without a big-band footprint.',
+        body: 'A distinctive live setup built around the rich sound of the Hammond organ, alongside guitar or saxophone and drums. Blending soul-jazz grooves, blues, and feel-good rhythms, this trio brings warmth, style, and a rich, full sound to the room with the flexibility of a smaller ensemble.',
       },
       {
-        title: 'With vocalist',
-        body: 'Add a soul or jazz vocalist for a more emotional and expressive live set — ideal for cocktails, dinners and celebrations that need a focal voice.',
+        title: 'With vocals',
+        body: 'Beautiful live vocals have a unique way of drawing people in, creating connection in the room, and staying with guests long after the event ends. Any instrumental format can be elevated with the addition of a soulful jazz vocalist — bringing personality, emotion, and connection to the performance.',
       },
       {
-        title: 'Larger band',
-        body: 'For bigger celebrations we can expand the group with saxophone, trumpet, backing vocals or extra rhythm — built from the same core musicians whenever possible.',
+        title: 'The full band experience',
+        body: 'For the ultimate celebration, the band can expand into a bespoke full ensemble featuring a horn section, two vocals, and additional percussion. Built around the electric chemistry of the core band, this expanded line-up elevates everything. There’s nothing quite like being in the room with a world-class soul band in full flow — the kind of experience your guests will talk about long after the night ends.',
       },
       {
-        title: 'DJ / live + DJ',
-        body: 'For the later part of the celebration, with the option to blend live sets and DJ so the night flows naturally.',
+        title: 'Live band + DJ',
+        body: 'When the live band finishes, the party doesn’t have to end. We offer DJ sets to carry the energy through into the early hours — keeping the dance floor full and the celebration going long after the band plays their last song.',
       },
       {
-        title: 'Sound support',
-        body: 'Clear, musical live sound for selected formats and venues — discreet and professional, never overpowering the room.',
+        title: 'Live sound',
+        body: 'With years of experience in live sound and event production, we provide professional sound support tailored to each venue and format. From intimate receptions to full-band celebrations, we ensure every performance sounds exceptional — clear, balanced, and perfectly suited to the room.',
       },
     ],
   },
   liveClips: {
-    title: 'Live clips',
+    title: 'Live sessions',
     intro:
-      'Hear real performances from our formats — every clip is the same size so you can compare easily.',
+      'Watch and listen to real performances from our different line-ups — with every clip presented in the same format, making it easy to compare the sound, feel, and atmosphere of each setup.',
     items: [
       { title: 'Solo piano — cocktail atmosphere', youtubeId: 'W6_83mZIhK8' },
       { title: 'David Philips — duo', youtubeId: 'A1vMhJQ9iSE' },
@@ -96,74 +98,70 @@ export const en = {
     ],
   },
   moments: {
-    title: 'Music for every moment of the day',
-    intro:
-      'How live music can shape a ceremony, a cocktail, a seated dinner or a late set — at weddings, corporate events, hotels, restaurants and private celebrations.',
+    title: 'Music for every moment',
+    intros: [
+      'Live music has the ability to completely shape the atmosphere of an event — from a beautiful ceremony or relaxed cocktail reception to an elegant dinner and a late-night set that brings the whole room together on the dance floor. We specialize in creating memories that last long after the night has ended.',
+      'Our band specialises in creating the right feel for every part of the day, with performances tailored to weddings, corporate events, luxury hotels, restaurants, and private celebrations.',
+    ],
     items: [
       {
         title: 'Ceremony',
-        body: 'Intimate jazz, soul or acoustic music for entrances, signing moments and special songs.',
-      },
-      {
-        title: 'Cocktail',
-        body: 'Swing, soul-jazz and feel-good grooves to create a relaxed and elegant atmosphere.',
+        body: 'Beautiful live music to accompany every part of your ceremony — from the entrance and signing of the register to the moments that mean the most. Intimate jazz, soul, and acoustic performances carefully chosen to create a romantic, personal atmosphere for you and your guests.',
       },
       {
         title: 'Dinner',
-        body: 'Warm background music that supports the room without overpowering conversation.',
-      },
-      {
-        title: 'Party / late set',
-        body: 'Groovier soul, blues, funk and upbeat jazz for guests who want to move.',
+        body: 'Warm, elegant live music that adds atmosphere to the room while allowing guests to relax, connect, and enjoy the conversation around the table.',
       },
       {
         title: 'Corporate & private events',
-        body: 'Corporate gatherings, award ceremonies, brand events, congresses, hotels, restaurants and private parties across Catalonia and beyond.',
+        body: 'Professional live music for corporate gatherings, award ceremonies, brand events, congresses, luxury hotels, restaurants, and private celebrations across Catalonia and beyond — with tailored performances designed to elevate the atmosphere and leave a lasting impression on your guests.',
+      },
+      {
+        title: 'Cocktail',
+        body: 'Soulful grooves, swing, and feel-good jazz to set the perfect mood — relaxed, stylish, and full of good energy as guests mingle and the celebration begins.',
       },
     ],
   },
   artists: {
     title: 'Musicians',
     galleryCaption:
-      'Recent events — weddings, corporate gatherings and private celebrations. Real rooms, real musicians, real energy.',
+      'Recent events — weddings, corporate events, and private celebrations. Real performances, real musicians, and real energy.',
     shuShusPhotoCaption:
-      'The Shu Shu’s — instrumental trio and groove-led sets when you want character without a featured vocalist.',
+      'The Shu Shu’s — A captivating soulful instrumental trio bringing rich grooves, exceptional musicianship, and an effortlessly cool atmosphere to any event.',
     sineadBandPhotoCaption:
-      'Sinead Savage & The Shu Shu’s — voice-led quartet and trio line-ups when the room wants a fuller band.',
+      'Sinead Savage & The Shu Shu’s — A powerful and soulful trio or quartet built around outstanding live vocals, deep grooves, and the kind of musical chemistry that makes the room come alive.',
     sineadPhotoCaption:
-      'Sinead Savage — live vocalist for soul, jazz and vintage repertoire.',
+      'Sinead Savage — An unforgettable soul and jazz vocalist known for rich, emotive performances and a powerful connection with every audience.',
     davidPhotoCaption:
-      'David Philips — singer-guitarist for solo or duo sets; combines with Abel when the line-up grows.',
+      'David Phillips — A remarkable guitar player and singer, available for solo performances or duo formats with piano, organ, or vocals.',
     abelPhotoCaption:
-      'Abel Boquera — solo piano, organ & drums duo, or duos with Sinead or David.',
+      'Abel Boquera — An exceptional Hammond organist and pianist, equally at home performing elegant solo piano or groove-filled duo performances with vocals, guitar, or drums.',
     paragraphs: [
-      'JazzMarried draws on a trusted network of singers, instrumentalists, DJs and live-sound professionals from Barcelona’s jazz, soul and event scene. The working core is deliberately modular: the same musicians who start as a duo are often the ones who step up into trio or quartet, so the sound stays coherent.',
-      'The live clips section shows real performances from our formats. Depending on your date and lineup, we may also involve our wider trusted network — always with clarity on who plays and why.',
-      'That flexibility is the point: intimate when you need it, fuller when the celebration asks for it.',
+      'JazzMarried brings together a trusted collective of singers, instrumentalists, DJs, and live sound professionals from Barcelona’s jazz and soul scene. Built around a core group of experienced musicians, our line-ups are designed to grow naturally throughout an event — from intimate duos to full ensembles — while keeping the same musical chemistry and identity throughout the day.',
+      'The live performances featured here are all real events and working line-ups. Depending on the event, we may also draw from our wider network of trusted musicians to create the right setup for the atmosphere, scale, and experience you want to create.',
+      'That flexibility is what allows us to shape the music around each moment of the event — relaxed and elegant when needed, full of energy when the celebration begins.',
     ],
   },
   why: {
     title: 'Why JazzMarried',
     items: [
-      'Real jazz and soul musicians — not generic backing-track entertainment',
-      'Flexible lineups from solo piano to larger band',
-      'Weddings, corporate events and private celebrations',
-      'Ceremony, cocktail, dinner and late-set options',
-      'More than 15 years of live music and event experience',
-      'Professional musicians from Barcelona’s jazz and soul scene',
-      'Internationally connected · experience in Switzerland and abroad',
-      'Fluent English and Spanish',
-      'Warm, elegant sound that fits the room',
-      'Live clips so you can hear the formats before you book',
-      'Live music, DJ and sound support available',
+      'Exceptional live jazz, soul, and groove musicians — real musicians, real performances, real connection',
+      'Flexible line-ups from solo piano to full band ensembles',
+      'Tailored music for weddings, corporate events, hotels, restaurants, and private celebrations',
+      'Music for every part of the event — from ceremonies and cocktails to dinners and late-night parties',
+      'More than 15 years of international live performance and event experience',
+      'Professional, personable, and easy to work with from first enquiry to final song',
+      'Fluent in English and Spanish for seamless planning with local and international clients',
+      'Live music, DJ sets, and professional sound support available',
+      'Excellent past client testimonials and reviews',
     ],
   },
   contact: {
     title: 'Tell us about your event',
-    lead: 'Share your date, venue, schedule and the atmosphere you have in mind. We’ll suggest a suitable format and prepare a tailored proposal.',
+    lead: 'Share your date, venue, and the atmosphere you want to create, and we’ll suggest the most suitable line-up for your event.',
     formNote: 'Submitting opens your email app with your message ready to send.',
     closing:
-      'Tell us what you have in mind — we’ll reply with practical format ideas and next steps.',
+      'Tell us what you have in mind — we’ll come back to you with ideas, options, and next steps.',
     fields: {
       name: 'Name',
       email: 'Email',
@@ -182,7 +180,7 @@ export const en = {
       phone: '+34 …',
       date: 'e.g. 12 September 2026',
       location: 'Venue or city',
-      type: 'Wedding, private dinner, corporate…',
+      type: 'Wedding, corporate, hotel, private celebration…',
       moment: 'Select…',
       guests: 'e.g. 80',
       format: 'Piano, duo, trio, band, DJ, live + DJ…',
@@ -193,8 +191,9 @@ export const en = {
     mailto: 'hello@jazzmarried.com',
   },
   footer: {
-    line1: 'Live jazz, soul and vintage music for weddings, corporate events and private celebrations.',
-    line2: 'Barcelona · Catalonia · Destination events',
+    line1:
+      'Live jazz, soul and vintage music for weddings, corporate events, hotels, restaurants and private celebrations.',
+    line2: 'Barcelona · English & Spanish',
     links: {
       instagram: 'Instagram',
       bodas: 'Bodas.net',

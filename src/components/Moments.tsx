@@ -7,7 +7,11 @@ export function Moments() {
       <div className="shell section__inner">
         <div className="section__header">
           <h2 className="section__title">{en.moments.title}</h2>
-          <p className="section__lede">{en.moments.intro}</p>
+          {en.moments.intros.map((text) => (
+            <p key={text.slice(0, 48)} className="section__lede">
+              {text}
+            </p>
+          ))}
           <div className="rule" aria-hidden="true" />
         </div>
         <ol className="moments">

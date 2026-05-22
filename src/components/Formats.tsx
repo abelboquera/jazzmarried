@@ -10,6 +10,12 @@ export function Formats() {
           <p className="section__lede">{en.formats.intro}</p>
           <div className="rule" aria-hidden="true" />
         </div>
+        <article className="format-spotlight" aria-labelledby="party-set-heading">
+          <h3 id="party-set-heading" className="format-spotlight__title">
+            {en.formats.partySet.title}
+          </h3>
+          <p className="format-spotlight__body">{en.formats.partySet.body}</p>
+        </article>
         <ul className="card-grid card-grid--formats">
           {en.formats.items.map((item) => (
             <li key={item.title} className="format-card">

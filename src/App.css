@@ -564,6 +564,31 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.format-spotlight {
+  margin: 0 0 2rem;
+  padding: 1.35rem 1.5rem;
+  background: var(--white);
+  border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
+  border-radius: 2px;
+}
+
+.format-spotlight__title {
+  margin: 0 0 0.65rem;
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+}
+
+.format-spotlight__body {
+  margin: 0;
+  max-width: 72ch;
+  color: color-mix(in srgb, var(--charcoal) 90%, transparent);
+  line-height: 1.65;
+}
+
 .format-card {
   background: var(--white);
   border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
