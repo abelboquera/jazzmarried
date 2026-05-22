@@ -14,6 +14,8 @@ Soy [tu nombre] de **JazzMarried** — músicos en vivo (jazz, soul, vintage) pa
 
 No somos una agencia de eventos: nos encargamos de la **música, el tono y el sonido**, y encajamos con vuestro catering, producción o venue.
 
+Para team-building también ofrecemos un **taller de songwriting con David Phillips** (co-creación de una canción del equipo + interpretación en vivo).
+
 Podéis ver paquetes orientativos aquí:  
 https://jazzmarried.com/#experiences
 

@@ -60,8 +60,8 @@ export const en = {
       },
       {
         title: 'Team-building & off-site',
-        meta: 'Trio to quintet · interactive set · 1–2 hours',
-        body: 'A feel-good groove session that gets people participating without awkward games — call-and-response, clapping and optional guest moments with the band. Perfect for company retreats, incentives and department away-days.',
+        meta: 'Interactive set or songwriting workshop · 1–2 hours',
+        body: 'A feel-good groove session that gets people participating without awkward games — call-and-response, clapping and optional guest moments with the band. Or add a songwriting workshop with David Phillips: the group co-writes lyrics and a chorus around your theme (values, launch, reunion), then hears it come together live — creative, memorable and genuinely collaborative. Perfect for company retreats, incentives and department away-days.',
         image: '/images/experiences/team-building.jpg',
         imageFallback: '/images/band-outdoor-deck.png',
         imageAlt: 'Live band performing outdoors — upbeat energy for a corporate off-site or team day.',
