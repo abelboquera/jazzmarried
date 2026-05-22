@@ -3,7 +3,6 @@ import { en } from '../content/en'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
 const HERO_VIDEO_SRC = '/media/voice-band-live.mp4'
-const HERO_POSTER = '/images/band-sinead-flytones.jpg'
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -20,7 +19,7 @@ export function Hero() {
 
     const tryPlay = () => {
       void video.play().catch(() => {
-        /* iOS may defer autoplay until interaction; poster stays visible */
+        /* iOS may defer autoplay until interaction */
       })
     }
 
@@ -69,7 +68,6 @@ export function Hero() {
           loop
           playsInline
           preload="auto"
-          poster={HERO_POSTER}
           aria-label="Live performance footage — JazzMarried curated lineup on stage."
         >
           <source src={HERO_VIDEO_SRC} type="video/mp4" />
