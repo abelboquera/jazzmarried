@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { en } from '../content/en'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
@@ -10,17 +10,46 @@ export function Hero() {
   const reducedMotion = usePrefersReducedMotion()
   const [soundOn, setSoundOn] = useState(false)
 
+  useEffect(() => {
+    if (reducedMotion) return
+    const video = videoRef.current
+    if (!video) return
+
+    video.setAttribute('playsinline', '')
+    video.setAttribute('webkit-playsinline', '')
+
+    const tryPlay = () => {
+      void video.play().catch(() => {
+        /* iOS may defer autoplay until interaction; poster stays visible */
+      })
+    }
+
+    if (video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) {
+      tryPlay()
+    } else {
+      video.addEventListener('loadeddata', tryPlay, { once: true })
+      video.addEventListener('canplay', tryPlay, { once: true })
+    }
+
+    return () => {
+      video.removeEventListener('loadeddata', tryPlay)
+      video.removeEventListener('canplay', tryPlay)
+    }
+  }, [reducedMotion])
+
   const toggleSound = useCallback(() => {
     if (!videoRef.current || reducedMotion) return
     setSoundOn((prev) => {
       const next = !prev
+      const el = videoRef.current
+      if (!el) return next
+      el.muted = !next
       if (next) {
+        el.volume = 1
         queueMicrotask(() => {
-          const el = videoRef.current
-          if (!el) return
-          el.volume = 1
           void el.play().catch(() => {
             setSoundOn(false)
+            el.muted = true
           })
         })
       }
@@ -39,7 +68,7 @@ export function Hero() {
           muted={!soundOn}
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           poster={HERO_POSTER}
           aria-label="Live performance footage — JazzMarried curated lineup on stage."
         >
