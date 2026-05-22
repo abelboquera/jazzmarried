@@ -5,6 +5,7 @@ import { Formats } from './components/Formats'
 import { LiveClips } from './components/LiveClips'
 import { Moments } from './components/Moments'
 import { Experiences } from './components/Experiences'
+import { CaseStudies } from './components/CaseStudies'
 import { Artists } from './components/Artists'
 import { WhyJazzmarried } from './components/WhyJazzmarried'
 import { Contact } from './components/Contact'
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <Moments />
         <Experiences />
+        <CaseStudies />
         <Formats />
         <LiveClips />
         <About />

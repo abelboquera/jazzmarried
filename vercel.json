@@ -6,5 +6,14 @@
     { "source": "/contact-us", "destination": "/#contact", "permanent": true },
     { "source": "/media", "destination": "/#videos", "permanent": true }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/commercial/:path*",
+      "destination": "/commercial/:path*"
+    },
+    {
+      "source": "/((?!commercial/).*)",
+      "destination": "/index.html"
+    }
+  ]
 }

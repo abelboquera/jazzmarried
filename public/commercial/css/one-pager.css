@@ -1,0 +1,143 @@
+:root {
+  --ink: #141210;
+  --burgundy: #6b2d3a;
+  --ivory: #f6f1e8;
+  --muted: #5a534c;
+  --serif: 'Libre Bodoni', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--ivory);
+}
+
+.page {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 14mm 16mm 18mm;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  border-bottom: 2px solid var(--burgundy);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  font-family: var(--serif);
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  letter-spacing: 0.02em;
+}
+
+.tag {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  line-height: 1.2;
+}
+
+.lede {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  max-width: 52ch;
+}
+
+h2 {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 1rem 0 0.35rem;
+  color: var(--burgundy);
+}
+
+p,
+li {
+  margin: 0 0 0.45rem;
+}
+
+ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.25rem;
+}
+
+.meta-box {
+  background: #fff;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  padding: 0.65rem 0.75rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.meta-box strong {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.footer {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.footer a {
+  color: var(--burgundy);
+}
+
+.note {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .page {
+    padding: 12mm 14mm;
+  }
+
+  a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .no-print {
+    display: none;
+  }
+}

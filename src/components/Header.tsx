@@ -6,6 +6,7 @@ const nav = [
   { href: '#top', label: en.nav.home },
   { href: '#weddings', label: en.nav.weddings },
   { href: '#experiences', label: en.nav.experiences },
+  { href: '#work', label: en.nav.work },
   { href: '#formats', label: en.nav.formats },
   { href: '#videos', label: en.nav.videos },
   { href: '#about', label: en.nav.about },
