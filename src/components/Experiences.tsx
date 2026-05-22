@@ -30,6 +30,12 @@ export function Experiences() {
           ))}
         </ul>
         <p className="experiences__footnote">{en.experiences.footnote}</p>
+        <p className="experiences__one-pagers">
+          {en.experiences.onePagers}{' '}
+          <a href={en.experiences.onePagersEsHref}>{en.experiences.onePagersEs}</a>
+          {' · '}
+          <a href={en.experiences.onePagersEnHref}>{en.experiences.onePagersEn}</a>
+        </p>
         <p className="experiences__cta-wrap">
           <a className="btn btn--primary" href="#contact">
             {en.experiences.cta}

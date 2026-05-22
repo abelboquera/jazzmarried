@@ -48,6 +48,12 @@ export const en = {
       'Curated live-music packages for companies, venues and event planners — built around jazz, soul and vintage grooves, with the professionalism you need for tastings, team days, showrooms, fairs and congresses. We provide the music and atmosphere; you keep your host, catering and production partners.',
     footnote:
       'Every experience is tailored to your schedule, guest profile and room layout. Tell us the format you have in mind and we’ll propose line-up, timings and sound.',
+    onePagers:
+      'Printable one-pagers for planners and clients (save as PDF from your browser):',
+    onePagersEs: 'Spanish',
+    onePagersEn: 'English',
+    onePagersEsHref: '/commercial/#es',
+    onePagersEnHref: '/commercial/#en',
     cta: 'Discuss a corporate experience',
     items: [
       {

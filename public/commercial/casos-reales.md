@@ -29,3 +29,5 @@ La web incluye una sección **Recent work** (`#work`) con casos basados en tipos
 6. **Gala / premios** — hotel o asociación.
 
 Enviad bullets por WhatsApp/email interno y los volcamos a la web en inglés (y español cuando exista `es.ts`).
+
+Kit bilingüe: `/commercial/` — one-pagers ES en `one-pagers/`, EN en `one-pagers/en/`.

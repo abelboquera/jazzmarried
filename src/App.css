@@ -472,6 +472,18 @@
   line-height: 1.65;
 }
 
+.experiences__one-pagers {
+  margin: 0.75rem 0 0;
+  max-width: 62ch;
+  font-size: 0.92rem;
+  color: color-mix(in srgb, var(--charcoal) 78%, transparent);
+}
+
+.experiences__one-pagers a {
+  color: var(--burgundy);
+  font-weight: 500;
+}
+
 .experiences__cta-wrap {
   margin: 1.25rem 0 0;
 }

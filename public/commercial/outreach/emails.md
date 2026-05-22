@@ -1,4 +1,6 @@
-# Plantillas de email — JazzMarried B2B
+# Plantillas de email — JazzMarried B2B (Español)
+
+English templates: [emails-en.md](./emails-en.md)
 
 Sustituir `[Nombre]`, `[Empresa]`, fechas. Adjuntar one-pager PDF (Imprimir → Guardar PDF desde `/commercial/one-pagers/...`).
 
@@ -41,7 +43,7 @@ En **JazzMarried** hacemos música en vivo para **catas y visitas enoturismo** �
 Trabajamos en dúo o trío, en inglés y español, y nos coordinamos con vuestro sumiller o responsable de visitas.
 
 Más contexto: https://jazzmarried.com/#experiences  
-One-pager (PDF): https://jazzmarried.com/commercial/one-pagers/cata-vinos.html
+One-pager (PDF): https://jazzmarried.com/commercial/one-pagers/cata-vinos.html (ES) · https://jazzmarried.com/commercial/one-pagers/en/wine-tasting.html (EN)
 
 ¿Tenéis alguna cata B2B o evento privado donde encajaría música en vivo este año?
 
@@ -85,21 +87,3 @@ Siguiente paso: confirmar fecha y 30% señal para bloquear.
 Quedo atento,  
 [tu nombre]
 
----
-
-## Versión EN (internacional / congress)
-
-**Subject:** Live jazz & soul — corporate events in Barcelona
-
-Dear [Name],
-
-We're **JazzMarried**, a Barcelona-based live music collective (jazz, soul, vintage grooves) for corporate events: wine tastings, team offsites, showrooms, trade fairs and gala dinners.
-
-We provide **music, atmosphere and professional sound** — and work alongside your agency, venue or AV team.
-
-Packages: https://jazzmarried.com/#experiences
-
-Happy to jump on a 15-minute call or send a tailored quote for your dates.
-
-Best,  
-[Name] · hello@jazzmarried.com

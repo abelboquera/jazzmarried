@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JazzMarried · Materiales comerciales B2B</title>
+    <title>JazzMarried · B2B sales kit / Kit comercial</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,17 +22,40 @@
       .hub-note strong {
         color: #6b2d3a;
       }
+      .hub-lang {
+        margin: 0 0 1rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .hub-lang a {
+        color: var(--burgundy);
+        font-weight: 600;
+        margin-right: 0.75rem;
+      }
+      .hub-grid {
+        display: grid;
+        gap: 2rem;
+      }
+      @media (min-width: 640px) {
+        .hub-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
       .hub-list {
         list-style: none;
         padding: 0;
-        margin: 1.5rem 0;
+        margin: 0.75rem 0 0;
       }
       .hub-list li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.45rem;
       }
       .hub-list a {
         color: var(--burgundy);
         font-weight: 500;
+      }
+      .hub-col h2 {
+        margin-top: 0;
       }
     </style>
   </head>
@@ -40,37 +63,65 @@
     <div class="page">
       <header class="header">
         <div class="brand">JazzMarried</div>
-        <div class="tag">Materiales comerciales · uso interno</div>
+        <div class="tag">Sales kit · uso interno</div>
       </header>
-      <h1>Corporate &amp; events — kit de venta</h1>
+      <p class="hub-lang" id="top">
+        <a href="#es">Español</a>
+        <a href="#en">English</a>
+      </p>
+      <h1>Corporate &amp; events</h1>
       <p class="hub-note">
-        <strong>Cómo ver los one-pagers:</strong> no abras el archivo .html en el editor (solo verás código).
-        Haz clic en los enlaces de abajo o pega en el navegador:
-        <code>http://localhost:5173/commercial/one-pagers/cata-vinos.html</code>
-        (con <code>npm run dev</code> en marcha). Luego <strong>Cmd+P → Guardar como PDF</strong>.
+        <strong>How to view one-pagers:</strong> open the links below in your browser (not in the code editor).
+        With <code>npm run dev</code>: <code>http://localhost:5173/commercial/</code> — then
+        <strong>Cmd+P → Save as PDF</strong>.
       </p>
-      <p class="lede">
-        Lista de cuentas y emails (.md) se leen en Cursor o en GitHub — no son páginas web.
+      <p class="hub-note">
+        <strong>Cómo ver los one-pagers:</strong> abre los enlaces en el navegador (no en el editor de código).
+        Con <code>npm run dev</code>: <code>http://localhost:5173/commercial/</code> — luego
+        <strong>Cmd+P → Guardar como PDF</strong>.
       </p>
-      <h2>One-pagers (PDF)</h2>
+
+      <div class="hub-grid">
+        <section class="hub-col" id="es">
+          <h2>One-pagers · Español</h2>
+          <ul class="hub-list">
+            <li><a href="/commercial/one-pagers/cata-vinos.html">Cata de vinos &amp; spirits</a></li>
+            <li><a href="/commercial/one-pagers/team-building.html">Team-building &amp; off-site</a></li>
+            <li><a href="/commercial/one-pagers/showroom.html">Showroom &amp; producto</a></li>
+            <li><a href="/commercial/one-pagers/feria-congreso.html">Feria &amp; congreso</a></li>
+            <li><a href="/commercial/one-pagers/gala-premios.html">Gala &amp; premios</a></li>
+            <li><a href="/commercial/one-pagers/evento-marca.html">Evento de marca</a></li>
+          </ul>
+        </section>
+        <section class="hub-col" id="en">
+          <h2>One-pagers · English</h2>
+          <ul class="hub-list">
+            <li><a href="/commercial/one-pagers/en/wine-tasting.html">Wine &amp; spirits tasting</a></li>
+            <li><a href="/commercial/one-pagers/en/team-building.html">Team-building &amp; off-site</a></li>
+            <li><a href="/commercial/one-pagers/en/showroom.html">Showroom &amp; product launch</a></li>
+            <li><a href="/commercial/one-pagers/en/trade-fair.html">Trade fair &amp; congress</a></li>
+            <li><a href="/commercial/one-pagers/en/gala-dinner.html">Gala &amp; awards dinner</a></li>
+            <li><a href="/commercial/one-pagers/en/brand-evening.html">Brand evening</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <h2>Outreach / Prospección</h2>
       <ul class="hub-list">
-        <li><a href="/commercial/one-pagers/cata-vinos.html">Cata de vinos &amp; spirits</a></li>
-        <li><a href="/commercial/one-pagers/team-building.html">Team-building &amp; off-site</a></li>
-        <li><a href="/commercial/one-pagers/showroom.html">Showroom &amp; presentación de producto</a></li>
-        <li><a href="/commercial/one-pagers/feria-congreso.html">Feria &amp; congreso</a></li>
-        <li><a href="/commercial/one-pagers/gala-premios.html">Gala &amp; premios</a></li>
-        <li><a href="/commercial/one-pagers/evento-marca.html">Evento de marca (cocktail → fiesta)</a></li>
-      </ul>
-      <h2>Prospección</h2>
-      <ul class="hub-list">
-        <li><a href="/commercial/outreach/lista-20-cuentas.md">Lista de 20 cuentas objetivo (Barcelona)</a></li>
-        <li><a href="/commercial/outreach/emails.md">Plantillas de email</a></li>
-        <li><a href="/commercial/casos-reales.md">Casos reales — cómo completar y publicar</a></li>
-        <li><a href="https://jazzmarried.com/#work">Recent work en la web</a></li>
+        <li>
+          <a href="/commercial/outreach/lista-20-cuentas.md">Lista 20 cuentas (ES)</a> ·
+          <a href="/commercial/outreach/target-accounts-20.md">Target list (EN)</a>
+        </li>
+        <li>
+          <a href="/commercial/outreach/emails.md">Emails (ES)</a> ·
+          <a href="/commercial/outreach/emails-en.md">Emails (EN)</a>
+        </li>
+        <li><a href="/commercial/casos-reales.md">Casos reales — guía (ES)</a></li>
+        <li><a href="https://jazzmarried.com/#work">Recent work on the website</a></li>
       </ul>
       <p class="footer">
-        Web pública: <a href="https://jazzmarried.com/#experiences">Experiences</a> ·
-        <a href="https://jazzmarried.com/#contact">Contacto</a>
+        <a href="https://jazzmarried.com/#experiences">Experiences</a> ·
+        <a href="https://jazzmarried.com/#contact">Contact</a>
       </p>
     </div>
   </body>
