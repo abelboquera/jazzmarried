@@ -285,12 +285,6 @@
   background: #141210;
 }
 
-@media (max-width: 767px) {
-  .hero__bg-video {
-    object-position: center 38%;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .hero__bg-video {
     display: none;
