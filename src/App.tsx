@@ -4,6 +4,7 @@ import { About } from './components/About'
 import { Formats } from './components/Formats'
 import { LiveClips } from './components/LiveClips'
 import { Moments } from './components/Moments'
+import { Experiences } from './components/Experiences'
 import { Artists } from './components/Artists'
 import { WhyJazzmarried } from './components/WhyJazzmarried'
 import { Contact } from './components/Contact'
@@ -21,6 +22,7 @@ function App() {
       <main id="main">
         <Hero />
         <Moments />
+        <Experiences />
         <Formats />
         <LiveClips />
         <About />

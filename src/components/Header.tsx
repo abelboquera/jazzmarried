@@ -5,6 +5,7 @@ import { en } from '../content/en'
 const nav = [
   { href: '#top', label: en.nav.home },
   { href: '#weddings', label: en.nav.weddings },
+  { href: '#experiences', label: en.nav.experiences },
   { href: '#formats', label: en.nav.formats },
   { href: '#videos', label: en.nav.videos },
   { href: '#about', label: en.nav.about },

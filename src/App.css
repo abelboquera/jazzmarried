@@ -461,6 +461,68 @@
   background-repeat: no-repeat;
 }
 
+.section--experiences {
+  background: linear-gradient(180deg, var(--ivory), var(--ivory-deep));
+}
+
+.experiences__footnote {
+  margin: 1.5rem 0 0;
+  max-width: 62ch;
+  color: color-mix(in srgb, var(--charcoal) 82%, transparent);
+  line-height: 1.65;
+}
+
+.experiences__cta-wrap {
+  margin: 1.25rem 0 0;
+}
+
+.card-grid--experiences {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.experience-card {
+  background: var(--white);
+  border: 1px solid color-mix(in srgb, var(--charcoal) 10%, transparent);
+  border-radius: 2px;
+  padding: 1.25rem 1.35rem;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.experience-card:hover {
+  border-color: color-mix(in srgb, var(--burgundy) 35%, var(--charcoal));
+  transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .experience-card:hover {
+    transform: none;
+  }
+}
+
+.experience-card__title {
+  margin: 0 0 0.35rem;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--burgundy);
+}
+
+.experience-card__meta {
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--charcoal) 55%, transparent);
+}
+
+.experience-card__body {
+  margin: 0;
+  color: color-mix(in srgb, var(--charcoal) 90%, transparent);
+  line-height: 1.6;
+}
+
 .section--formats {
   background: linear-gradient(180deg, var(--ivory-deep), var(--ivory));
 }

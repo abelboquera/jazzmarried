@@ -12,6 +12,7 @@ export const en = {
   nav: {
     home: 'Home',
     weddings: 'Events',
+    experiences: 'Experiences',
     formats: 'Formats',
     videos: 'Videos',
     about: 'About',
@@ -38,6 +39,46 @@ export const en = {
       'Made up of some of Europe’s top soul and funk musicians, the band have worked with legendary artists including Sharon Jones, Brian Jackson, Iggy Pop, Charlie Wood, and John Cale, and performed at renowned festivals including Montreux Jazz Festival, Jazz in Marciac, Delhi International Jazz Festival, Woodford Folk Festival, and Primavera Sound.',
       'Each musician brings their own personality, style, and years of live experience to every performance, coming together to create the unmistakable energy, chemistry, and connection the band is so known for.',
       'From solo piano and intimate duos to full ensembles and late-night DJ sets, we tailor every line-up to your event, your guests, and the experience you want them to remember. With JazzMarried, you can relax knowing every detail of the music is taken care of.',
+    ],
+  },
+  experiences: {
+    title: 'Corporate experiences',
+    intro:
+      'Curated live-music packages for companies, venues and event planners — built around jazz, soul and vintage grooves, with the professionalism you need for tastings, team days, showrooms, fairs and congresses. We provide the music and atmosphere; you keep your host, catering and production partners.',
+    footnote:
+      'Every experience is tailored to your schedule, guest profile and room layout. Tell us the format you have in mind and we’ll propose line-up, timings and sound.',
+    cta: 'Discuss a corporate experience',
+    items: [
+      {
+        title: 'Wine & spirits tasting',
+        meta: 'Duo or jazz trio · 2–3 hours · refined background',
+        body: 'Live jazz and soul that supports conversation between pours — elegant, never loud. Ideal for bodegas, wine bars, hotel tastings and brand-led spirit launches. Short musical accents between rounds on request.',
+      },
+      {
+        title: 'Team-building & off-site',
+        meta: 'Trio to quintet · interactive set · 1–2 hours',
+        body: 'A feel-good groove session that gets people participating without awkward games — call-and-response, clapping and optional guest moments with the band. Perfect for company retreats, incentives and department away-days.',
+      },
+      {
+        title: 'Showroom & product presentation',
+        meta: 'Duo to soul-jazz trio · flexible blocks',
+        body: 'Music shaped around walk-throughs, demos and reveal moments — from understated background to a confident live sting when the product appears. For automotive showrooms, design spaces, tech launches and curated retail.',
+      },
+      {
+        title: 'Trade fair & congress',
+        meta: 'Solo to trio · welcome, breaks & VIP',
+        body: 'Reliable live sets for stands, networking areas and speaker changeovers — punctual, easy to brief and comfortable working with organisers and AV. English and Spanish for international delegates.',
+      },
+      {
+        title: 'Award ceremony & gala dinner',
+        meta: 'Trio to full band · ceremony + dinner',
+        body: 'Warm entrance music, discreet support during speeches and awards, then a fuller sound for the meal and after-party if needed. We understand cues, pacing and when the room needs calm versus energy.',
+      },
+      {
+        title: 'Brand evening',
+        meta: 'Cocktail → party arc · scalable line-up',
+        body: 'Start with stylish cocktail jazz, build through dinner or networking, then open the dance floor with the party set when you want the room to lift. One musical thread from welcome to celebration — ideal for client events and internal milestones.',
+      },
     ],
   },
   formats: {
@@ -180,7 +221,7 @@ export const en = {
       phone: '+34 …',
       date: 'e.g. 12 September 2026',
       location: 'Venue or city',
-      type: 'Wedding, corporate, hotel, private celebration…',
+      type: 'Wedding, wine tasting, team-building, fair, congress…',
       moment: 'Select…',
       guests: 'e.g. 80',
       format: 'Piano, duo, trio, band, DJ, live + DJ…',
