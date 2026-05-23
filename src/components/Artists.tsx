@@ -17,10 +17,10 @@ export function Artists() {
           <figure className="artist-gallery__item artist-gallery__item--wide">
             <div className="artist-gallery__thumb">
               <img
-                src="/images/band-sinead-flytones.jpg"
-                width={3208}
-                height={2104}
-                alt="Sinead Savage & The Shu Shu’s — voice-led band outdoors in Barcelona."
+                src="/images/sinead-shu-shus-1.png"
+                width={1024}
+                height={768}
+                alt="Sinead Savage & The Shu Shu’s — quartet portrait outdoors in Barcelona."
                 loading="lazy"
                 decoding="async"
               />
@@ -32,7 +32,7 @@ export function Artists() {
               <img
                 src="/images/shu-shus-trio.png"
                 width={1024}
-                height={678}
+                height={768}
                 alt="The Shu Shu’s — instrumental trio, portrait of three musicians."
                 loading="lazy"
                 decoding="async"

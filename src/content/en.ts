@@ -86,7 +86,7 @@ export const en = {
         meta: 'Solo to trio · welcome, breaks & VIP',
         body: 'Reliable live sets for stands, networking areas and speaker changeovers — punctual, easy to brief and comfortable working with organisers and AV. English and Spanish for international delegates.',
         image: '/images/experiences/trade-fair.jpg',
-        imageFallback: '/images/band-sinead-flytones.jpg',
+        imageFallback: '/images/sinead-shu-shus-1.png',
         imageAlt: 'Voice-led band at an outdoor event — professional live music for fairs and congress networking.',
       },
       {
