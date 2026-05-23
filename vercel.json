@@ -12,7 +12,11 @@
       "destination": "/commercial/:path*"
     },
     {
-      "source": "/((?!commercial/).*)",
+      "source": "/downloads/:path*",
+      "destination": "/downloads/:path*"
+    },
+    {
+      "source": "/((?!commercial/|downloads/).*)",
       "destination": "/index.html"
     }
   ]

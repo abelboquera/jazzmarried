@@ -6,6 +6,7 @@ const footerNav = [
   { href: '#formats', label: en.nav.formats },
   { href: '#videos', label: en.nav.videos },
   { href: '#about', label: en.nav.about },
+  { href: '/corporate-events-barcelona', label: en.nav.corporate },
   { href: '#contact', label: en.nav.contact },
 ]
 

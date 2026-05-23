@@ -18,6 +18,7 @@ export const en = {
     videos: 'Videos',
     about: 'About',
     contact: 'Enquire',
+    corporate: 'Corporate Events',
   },
   hero: {
     headline: 'Music for every moment of the day.',
